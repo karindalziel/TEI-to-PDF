@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?oxygen RNGSchema="http://jetson.unl.edu/cdrh/schemas/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PaperDemo-207">
+    
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Dyadic pulsations as a signature of sustainability in correspondence networks</title>
+<author>
+<name><surname>Aeschbach</surname>, <forename>Michael</forename></name>
+<affiliation>University of Lausanne, Switzerland</affiliation>
+<email>michael.aeschbach@unil.ch</email>
+</author>
+<author>
+<name><surname>Brandt</surname>, <forename>Pierre-Yves</forename></name>
+<affiliation>University of Lausanne, Switzerland</affiliation>
+<email>pierre-yves.brandt@unil.ch</email>
+</author>
+<author>
+<name><surname>Kaplan</surname>, <forename>Fr&#233;d&#233;ric</forename></name>
+<affiliation>Ecole Polytechnique Federale de Lausanne (EPFL), Switzerland</affiliation>
+<email>frederic.kaplan@epfl.ch</email>
+</author>
+</titleStmt>
+<publicationStmt>
+<authority></authority>
+<publisher>University of Nebraska-Lincoln</publisher>
+<distributor>
+<name>Center for Digital Research in the Humanities</name>
+<address>
+<addrLine>319 Love Library</addrLine>
+<addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+<addrLine>cdrh@unlnotes.unl.edu</addrLine>
+</address>
+</distributor>
+<pubPlace>Lincoln, Nebraska</pubPlace> 
+<address>
+<addrLine>University of Nebraska-Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+<availability>
+<p></p>
+</availability>
+</publicationStmt>
+    
+<notesStmt><note type="abstract">In this paper, we introduce the concept of dyadic pulsations as a measure of sustainability in online discussion groups. Dyadic pulsations correspond to new communication exchanges occurring between two participants in a discussion group. A group that continuously integrates new participants in the on-going conversation is characterized by a steady dyadic pulsation rhythm. On the contrary, groups that either pursue close conversation or unilateral communication have no or very little dyadic pulsations. We show on two examples taken from Usenet discussion groups, that dyadic pulsations permit to anticipate future bursts in response delay time which are signs of group discussion collapses. We discuss ways of making this measure resilient to spam and other common algorithmic production that pollutes real discussions.</note></notesStmt>
+    
+<sourceDesc>
+<p>No source: created in electronic format.</p>
+<p>
+<date when="20130719"></date>
+<time when="10:30:00"></time>
+</p>
+<p n="session">SP16</p>
+</sourceDesc>
+</fileDesc>
+    
+<profileDesc>
+<textClass>
+<keywords scheme="original" n="category">
+<term>Paper</term>
+</keywords>
+<keywords scheme="original" n="subcategory">
+<term>Short Paper</term>
+</keywords>
+<keywords scheme="original" n="keywords">
+<term>dyadic pulsations</term>
+<term>dyads</term>
+<term>networks</term>
+<term>virtual communities</term>
+<term>correspondence patterns</term>
+                
+</keywords>
+<keywords scheme="original" n="topic">
+<term>interdisciplinary collaboration</term>
+<term>social media</term>
+<term>networks</term>
+<term>relationships</term>  
+<term>graphs</term>
+              
+</keywords>
+</textClass>
+</profileDesc>
+    
+<revisionDesc>
+<change>
+<date when="2013-03-29"></date>
+<name>Erin Pedigo</name>
+<desc>Initial encoding</desc>
+</change>
+</revisionDesc>
+</teiHeader>
+    
+<text type="paper">
+<body>
+<div>
+    
+    <p><hi rend="italic">In this paper, we introduce the concept of dyadic pulsations as a measure of sustainability in online discussion groups. Dyadic pulsations correspond to new communication exchanges occurring between two participants in a discussion group. A group that continuously integrates new participants in the on-going conversation is characterized by a steady dyadic pulsation rhythm. On the contrary, groups that either pursue close conversation or unilateral communication have no or very little dyadic pulsations. We show on two examples taken from Usenet discussion groups, that dyadic pulsations permit to anticipate future bursts in response delay time which are signs of group discussion collapses. We discuss ways of making this measure resilient to spam and other common algorithmic production that pollutes real discussions.</hi></p>
+    <p>Can a discussion group be characterized by looking solely at the interaction patterns of its participants? Symmetrically, can the patterns of interaction of a given participant identify its role in a discussion group? Can we predict from these patterns the evolution of the interaction inside a group, spotting for instance the early signs of a group decomposition process? Our research aims to establish a new mathematical approach to distinguish between different types of discussion group participants as well as between different types of discussion groups, both with their typical ways of interacting (interaction "signatures") and life cycles.</p>
+    <p>The analysis of interaction dynamics has recently received an increased focus of attention in the network science community. Mathematical methods (Newman, Barabási and Watts 2006) have been used to identify signatures characterizing the mode of exchanges of famous scholars, comparing for instance patterns in the correspondence of Charles Darwin and Albert Einstein (Oliveira and Barabási 2005). Fluctuation patterns and delays in letter responses indicate prioritization strategies that can be modeled and simulated. These methods permit also to draw comparisons with modern forms of electronic exchanges where similar patterns, corresponding to universal scaling laws (Barabási 2005; Bunde, Eichner, Havlin and Kantelhardt 2004), can be found. Interestingly, all these analyses can be conducted without considering the semantic or pragmatic nature of the exchanges.</p>
+<p>Patterns in correspondences networks are of great interest for research in Digital Humanities. For instance, the Stanford’s Republic of Letters project <ref type="url" target="http://republicofletters.stanford.edu">(http://republicofletters.stanford.edu)</ref> use “big data” and “distant reading” approaches to offer new visualization tools and test various hypotheses about the Enlightenment. However, mathematical analysis of such networks is not yet common in the Digital Humanities community.</p>
+    <p>Drawing on research on social networks (Wasserman and Faust 2009 [1994]) and computer mediated communication (Smith and Kollock 1999; Turner, Smith, Fisher and Welser 2005; Welser, Gleave, Fisher and Smith 2007), we analyze the activity and correspondence pattern of participants in Usenet newsgroups about religion and spirituality. Our paper reports an on-going analysis of large data set that consists of more than 1.5 million unique Usenet messages. Usenet is one of the Internet's oldest discussion systems still in widespread use. Unlike more recent platforms like Facebook and Twitter, Usenet hasn't stored its messages in a single central location and offers due to its open nature easier access to its data. Furthermore, Usenet's threaded conversations are organized by topics, with the advantage of allowing comparisons between topics.</p>
+    <p>In this paper, we introduce the concept of dyadic pulsation (DP) as a complementary measure to reply time for measuring the vitality of a given group. In our representation, a pulsation corresponds to the creation of new communication dyads, i.e. the first direct communication between two users A and B. When B first replies to A, a pulsation of type <hi rend="italic">A</hi> (for asymmetric) is emitted. When A replies again to a message of B, a second pulsation of type <hi rend="italic">M</hi> (for mutual) is produced. A group that continuously integrates new members in the on-going conversation is characterized by a steady dyadic pulsation rhythm, mixing type <hi rend="italic">A</hi> and type <hi rend="italic">M</hi> pulsations. On the contrary, groups that either pursue close conversation or unilateral communication (e.g. news feeds, announces without discussion) have no or very little dyadic pulsations.</p>
+    <p>Our working hypothesis is that evolutions in the pulsation rhythms are earlier predictors of the evolution of group dynamics. Figure A shows an example of a group maintaining a good average response time for a long period followed by an apparently unanticipated explosion of response time. At some point group members simply stop to answer timely to the messages of the discussion group. Interestingly, although no anticipated sign of this evolution could be spotted in the delay time graph, the pulsation graphs shows a progressive reduction of the frequency on the creation of new communication dyads. The grey lines in the lower bar of show pulsations of type A while the black lines show pulsations of type M. Figure B shows the change in delay time after the appearance of a succession of type <hi rend="italic">A</hi> and type <hi rend="italic">M</hi> pulsations, indicators for the formation of new links between discussion participants.</p>
+    
+<figure><graphic url="ab-207.001"/><head>Figure A and Figure B:</head></figure>
+    
+    <p>For dyadic pulsations to be a reliable predictor, it is mandatory that they are resistant to the various forms of spam common to digital communication. This is one reason for the distinction of the two types of dyadic pulsations. Indeed, dyadic pulsations of type A can result of spam bots posting messages to a group. However, it is very unlikely that any real user answers to those messages. Thus, the presence of type <hi rend="italc">M</hi> pulsations guarantees that new correspondence partners entered the group studied.</p>
+    <p>We are conducting a larger study to test the relevance of this measure in the particular case of different online discussion groups related to topics about religion and spiritualty. Our hope is to validate the hypothesis that dyadic pulsations on a group level permit to distinguish between different modes in a discussion group's life cycle.</p>
+    <p>More generally, we believe that this measure can be relevant to characterize the rises and declines of activity in correspondence networks, including literary correspondence networks.</p>
+    
+    
+</div>
+    
+</body>
+    
+<back>
+<div type="References">
+<listBibl>
+    
+<bibl><hi rend="bold">Barabási, A.-L. </hi> (2005). The origin of bursts and heavy tails in human dynamics.<hi rend="italic"> Nature</hi>, 435(7039), 207–211. doi:10.1038/nature03459.</bibl>
+    
+<bibl><hi rend="bold">Bunde, A., J. F. Eichner, S. Havlin, and J. W. Kantelhardt</hi> (2004). Return intervals of rare events in records with long-term persistence. <hi rend="italic">Physica A 342</hi>. 308–314.</bibl>
+    
+<bibl><hi rend="bold">Newman, M., A.-L. Barabási, and D. J.Watts (eds.).</hi> (2006). The Structure and Dynamics of Networks. <hi rend="italic">Princeton Studies in Complexity</hi>. Princeton: Princeton University Press.</bibl>
+    
+<bibl><hi rend="bold">Oliveira, J. G., and A.-L. Barabási</hi> (2005). Human dynamics: Darwin and Einstein correspondence patterns. <hi rend="italic">Nature</hi>. <hi rend="italic">437.7063</hi>. 1251–1251. doi:10.1038/4371251a.</bibl>
+    
+<bibl><hi rend="bold">Smith, M. A., and P. Kollock (eds.).</hi> (1999). <hi rend="italic">Communities in Cyberspace</hi>. London: Routledge.</bibl>
+    
+<bibl><hi rend="bold">Turner, T. C., M. A. Smith, D. Fisher, and H. T. Welser</hi> (2005). Picturing Usenet: Mapping Computer-Mediated Collective Action. <hi rend="italic">Journal of Computer-Mediated Communication</hi>. <hi>10.4</hi>. doi:10.1111/j.1083-6101.2005.tb00270.x</bibl>
+    
+<bibl><hi rend="bold">Wasserman, S., and K. Faust</hi> (2009). Social Network Analysis: Methods and Applications. Cambridge: Cambridge University Press.</bibl>
+    
+<bibl><hi rend="bold">Welser, H. T.,  E.  Gleave, D. Fisher, and M. Smith</hi> (2007). Visualizing the Signatures of Social Roles in Online Discussion Groups. <hi rend="italic">Journal of Social Structure</hi>. 8. <ref type="url" target="http://www.cmu.edu/joss/content/articles/volume8/Welser/">http://www.cmu.edu/joss/content/articles/volume8/Welser/</ref></bibl>
+        
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>
+    
+    
+                

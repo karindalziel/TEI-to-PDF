@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://jetson.unl.edu/cdrh/schemas/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" xml:id="intro-003">
+
+<teiHeader>
+<fileDesc>
+<titleStmt>
+    <title type="nodisplay">Description Page</title>
+
+</titleStmt>
+<publicationStmt>
+<authority></authority>
+<publisher>University of Nebraska-Lincoln</publisher>
+<distributor>
+<name>Center for Digital Research in the Humanities</name>
+<address>
+<addrLine>319 Love Library</addrLine>
+<addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+<addrLine>cdrh@unl.edu</addrLine>
+</address>
+</distributor>
+<pubPlace>Lincoln, Nebraska</pubPlace> 
+<address>
+<addrLine>University of Nebraska-Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+<availability>
+<p></p>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<p>No source: created in electronic format.</p>
+</sourceDesc>
+</fileDesc>
+
+<profileDesc>
+<textClass>
+<keywords scheme="original" n="category">
+<term>Intro</term>
+</keywords>
+<keywords scheme="original" n="subcategory">
+<term>Short Paper</term>
+</keywords>
+<keywords scheme="original" n="topic">
+<term></term>
+</keywords>
+<keywords scheme="original" n="keywords">
+<term></term>
+</keywords>
+</textClass>
+</profileDesc>
+
+<revisionDesc>
+<change>
+<date/>
+<name/>
+<desc/>
+</change>
+</revisionDesc>
+</teiHeader>
+
+    <text type="paper" n="single">
+<body>
+<div>
+    <p n="intro_text_center">
+    The 24th Joint International Conference of the Association for Literary and Linguistic Computing and Association for Computers and the Humanities<lb/>
+    and<lb/>
+        The 5th Joint International Conference of the Alliance of Digital Humanities Organizations
+          </p>   
+    
+   <p> <seg n="book_figure">BOOK FIGURE GOES HERE (controlled by XSLT because of different print/PDF versions</seg></p>
+</div>
+
+</body>
+
+
+</text>
+</TEI>
+

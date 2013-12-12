@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PosterDemo-001">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Welcome to DHwriter</title>
+        <author>
+          <name>
+            <surname>Author</surname>
+            <forename>Demo</forename>
+          </name>
+          <affiliation>EPFL, Switzerland</affiliation>
+          <email>demo@dhwriter.org</email>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority/>
+        <publisher>EPFL, Switzerland</publisher>
+        <distributor>
+          <name>EPFL Digital Humanities Laboratory</name>
+          <address>
+            <addrLine>GC D2 386</addrLine>
+            <addrLine>Station 18</addrLine>
+            <addrLine>CH-1015 Lausanne</addrLine>
+            <addrLine>frederic.kaplan@epfl.ch</addrLine>
+          </address>
+        </distributor>
+        <pubPlace>Lausanne, Switzerland</pubPlace>
+        <address>
+          <addrLine>EPFL</addrLine>
+          <addrLine>CH-1015 Lausanne</addrLine>
+        </address>
+        <availability>
+          <p/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="abstract">This paper is here for you to try out DHwriter in an interactive way. Please feel free to type in anything you want. If you want to save it afterwards, you will have to log in.</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+        <p>
+          <date when="20131211"/>
+          <time when="21:57:38"/>
+        </p>
+        <p n="session">LP22</p>
+      </sourceDesc>
+    </fileDesc>
+    
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="original" n="topic">
+          <term>databases &amp; dbms</term>
+          <term>interface and user experience design</term>
+          <term>literary studies</term>
+          <term>text analysis</term>
+          <term>french studies</term>
+          <term>visualisation</term>
+          <term>data mining/ text mining</term>
+        </keywords>
+        <keywords scheme="original" n="keywords">
+          <term>topic modeling</term>
+          <term>sequence alignment</term>
+          <term>text retrieval</term>
+          <term>corpus queries</term>
+          <term>visualization</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text type="paper">
+    <front>
+      <head/>
+      <div>
+        <p></p>
+      </div>
+    </front>
+    <body>
+      <div><p rend="head">Why should I try DHwriter?</p><p>As you know, every year, reformatting the abstracts from their original submission formats (Word, PDF, etc.) into TEI (for publishing the on-line version and the book of abstracts) is a long and tedious process. Previous local organisers all agree that this task is one the most time-consuming of the entire local organisation "adventure". In order to progress in making the process smoother, our local team has been actively working since the Nebraska meeting to build a web interface for writing the abstracts in a format that would make possible:</p><list type="unordered"><item>the reviewing process as usual using Conftool</item><item>an exportation in TEI for publishing the proceedings.</item></list><p>This tool, completely independent from Conftool, should deal with all the key features you may want to include in an abstract (citations, figures, etc.). It can export in TEI and in a format we call "review PDF" which is containing an automatically rendered layout of the abstract and on-line link to check a clean TEI-based version. The first version of this tool is accessible on dhwriter.org. It is far from perfect as it has been developed in just a few weeks. We made the code open-source and already available on GitHub.</p><p rend="head">How should I use DHwriter to publish in DH2014?</p><p>You can think of DHwriter as a simplified version of Google docs. You can insert section, figures, lists, etc. A word counter indicates how long is currently your text.</p><p>1) Click on the <hi rend="bold">Sign In</hi> button above.</p><figure><graphic url="DH2014_2_signin"/></figure>Fig. 1: <p>2) Click on <hi rend="bold">Not yet a member</hi>, fill in the form and submit it3) You should arrive on a page looking like the present one, on which you can start writing your abstract4) <hi rend="bold">Header</hi>. To enter the title, authors, summary and other metadata click on the small triangle left to the title :</p><figure><graphic url="DH2014_2_title"/></figure>Fig. 2: <p>You should access a form where you can enter the information and the metadata. To add an additional author click on the (+) button located on the bottom right of the form. To reorder, simply drag and drop them. To remove an author, click on the trash icon.</p><p>5) <hi rend="bold">References.</hi> To enter a reference click on the [1] icon in the top toolbar.</p><figure><graphic url="DH2014_2_tool-ref"/></figure>Fig. 3: <p>This will provide to you a basic mechanism to enter citation in the form you like by simply entering a line of text. An autocompletion system is implemented looking for your reference in an (increasingly large) database of DH references.</p><p>Choose or type the citation and click on the Save button. It is now appearing in the text...</p><figure><graphic url="DH2014_2_fe127006aa67a9c5b5b1cbd6811a47c2"/></figure>Fig. 4: <p>...and at the bottom of your text, in a special window called References</p><figure><graphic url="DH2014_2_279bf344125b8cde3d2cc3400e29063e"/></figure>Fig. 5: <p>6) <hi rend="bold">Images:</hi> To enter an image or figure, click on the image button in the top toolbar:</p><figure><graphic url="DH2014_2_DH2014_2_tool-image"/></figure>Fig. 6: <p>You can enter the URL of the image or upload it from your computer. A second pop-up window asks you the clarify the copyright of the image you use. Click Save and the image should now be included in your text.</p><p>- Don't forget to fill in a short description for the viewing impaired.</p><p>- You can resize your image using the handle located in its bottom right corner.7) <hi rend="bold">Exporting as Review PDF</hi>. Once your abstract is finished you can export it in a format made for the reviewers called "Review PDF". Just click on the corresponding link in the tools located on the left of the screen.</p><p>The first page of this PDF includes a simple title page. At the bottom of the page you'll find a clickable URL that brings </p><p>you to an TEI/HTML version of the your article, designed to display nicely on a browser.</p><figure><graphic url="DH2014_2_0748ceb8db3603c0f2114e32ad9e95a5"/></figure>Fig. 7: <p>This link will be very precious for publishing your article on the web and in print, if it is accepted.</p><p>The following pages include the abstract itself.</p><p>Save this "Review PDF" in your computer. This will be the file that will be uploaded to conftool.8) Uploading your "Review PDF" file to <hi rend="bold">Conftool</hi></p><p>a.  Go to http://www.conftool.pro/dh2014/b.  If you already have a login you can use this one. Otherwise you can proceed to create a new one :c.  Create your account and go to the Submissions formd.  Click for instance on long paper and enter the information about your paper and the metadata     (please note that you will have to reenter them despite the fact that you entered them in DHwriter)e.  Upload your abstract in the "Review PDF" formatf.  You are done !</p></div>
+    </body>
+    <back>
+      <div type="References">
+        <head>References</head>
+        <listBibl>
+          <bibl>
+            <hi rend="bold">This is a sample reference for DHwriter, 2013.</hi>
+          </bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

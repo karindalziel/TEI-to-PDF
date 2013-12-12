@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?oxygen RNGSchema="http://jetson.unl.edu/cdrh/schemas/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PosterDemo-336">
+    
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Data Driven Documentation of Digital Humanities Discourse</title>
+<author>
+<name><surname>Burton</surname>, <forename>Matt</forename></name>
+<affiliation>University of Michigan, United States of America</affiliation>
+<email>mcburton@umich.edu</email>
+</author>
+</titleStmt>
+<publicationStmt>
+<authority></authority>
+<publisher>University of Nebraska-Lincoln</publisher>
+<distributor>
+<name>Center for Digital Research in the Humanities</name>
+<address>
+<addrLine>319 Love Library</addrLine>
+<addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+<addrLine>cdrh@unlnotes.unl.edu</addrLine>
+</address>
+</distributor>
+<pubPlace>Lincoln, Nebraska</pubPlace> 
+<address>
+<addrLine>University of Nebraska-Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+<availability>
+<p></p>
+</availability>
+</publicationStmt>
+            
+<notesStmt><note type="abstract">This poster presents a data driven landscape of scholarly communication. Using tools and techniques from information visualization, I represent a topic model of discourse on digital humanities blogs using a javascript visualization framework, Data Driven Documents or D3.js. Second, it presents a rigorous methodological procedure for the analyzing topic models rooted in an interpretivist qualitative analysis framework, grounded theory. Leveraging grounded theory this study informs our understanding of scholarly communities in-formation with an interpretive, grounded, empirical analysis of a computational model and its concomitant texts.</note></notesStmt>
+            
+<sourceDesc>
+<p>No source: created in electronic format.</p>
+</sourceDesc>
+</fileDesc>
+        
+<profileDesc>
+<textClass>
+<keywords scheme="original" n="category">
+<term>Poster</term>
+</keywords>
+<keywords scheme="original" n="subcategory">
+<term></term>
+</keywords>
+<keywords scheme="original" n="keywords">
+<term>topic modeling</term>
+<term>grounded theory</term>
+<term>visualization</term>
+<term>community</term>
+<term>communication</term>
+</keywords>
+<keywords scheme="original" n="topic">
+<term>text analysis</term>
+<term>content analysis</term>
+<term>social media</term>
+<term>data mining/text mining</term>  
+                 
+</keywords>
+</textClass>
+</profileDesc>
+        
+<revisionDesc>
+<change>
+<date when="2013-03-29"></date>
+<name>Erin Pedigo</name>
+<desc>Initial encoding</desc>
+</change>
+</revisionDesc>
+</teiHeader>
+    
+<text type="poster">
+<body>
+<div>
+    
+    <p>This poster presents a work-in-progress investigating the use of social media in
+scholarly communication and the role such technologies play in the formation of scholarly
+communities. The digital humanities have emerged as a focal point for debates about the
+impact of information technology in the humanities.<ref type="note" target="n01" n="1">1</ref> While the digital humanities has its
+    roots in the computational processing of text,<ref type="note" target="n02" n="2">2</ref> the landscape today is far richer and more
+complicated than early practitioners of humanities computing could have ever imagined
+(except perhaps Father Busa whose grand visions have yet to be realized).<ref type="note" target="n03" n="3">3</ref> Today, the
+digital humanities encompasses transformative methods of inquiry, radically new kinds
+of research objects, and potentially destabilizing shifts in scholarly publishing. However,
+beyond a metamorphosis of method, object, and account, digital humanities leverage
+information communications technology in unique ways to constitute themselves as a
+<hi rend="italic">community in-formation.</hi></p>
+    <p>Social media, especially blogs, have been eagerly adopted by the digital
+humanities community.<ref type="note" target="n04" n="4">4</ref> Blogs are pregnant with promise and peril as platforms for
+serious (and silly) scholarly communication. They are quick for publishing, support
+multimedia, and enable rapid interaction, yet, the low barrier of entry and lack of peer
+review puts blog's credibility and quality in doubt. Outside of the digital humanities,
+blogs are not necessarily seen as modes of serious scholarly communication, instead they
+are considered a place for gossip.<ref type="note" target="n05" n="5">5</ref> Such totalizing perspective ignores the diverse uses
+    and meanings of blogs for scholars in a variety of disciplines.<ref  type="note" target="n06" n="6">6</ref> The value of scholar's blogs
+and the vibrant communities of discourse around them should not be understated or
+ignored.</p>
+<p>The seriousness of blogs as a mode of scholarly communication is evident in the creation of initiatives such as Digital Humanities Now<ref type="note" target="n07" n="7">7</ref> and the Journal of Digital Humanities.<ref type="note" target="n08" n="8">8</ref> These projects treat blogs as legitimate forms of proto-scholarship and
+provide a filter function to the community; finding high quality discourse within their
+curated selection of digital humanities blogs, the Compendium of digital humanities. As a
+model for scholarly publishing, the Journal of Digital Humanities presents a reversal of
+the traditional dynamics of scholarly discourse. Technology has flipped the flow of
+scholarly communication from one of scarcity to surfeit. It is impossible to keep up with
+the flood of blogs and Tweet, yet, scholars ignore this "cool kids table" at their peril.<ref type="note" target="n09" n="9">9</ref> In
+the face of such information overload, scholarly communities must change not only their
+means of knowledge production, but their information seeking behavior and the ways in
+which membership and identity are constituted as well.</p>
+    <p>This study presents a data driven analysis of scholarly discourse focusing on the
+sociotechnical dynamics of blogs and their role constituting the digital humanities as a
+community-in-formation. There have been a few data driven approaches to
+understanding the digital humanities, Melissa Terras' beautiful infographic, Quantifying
+the Digital Humanities, was an important first step towards surveying the community
+writ-large.<ref type="note" target="n10" n="10">10</ref> Matthew Jockers and Elijah Meeks have both done some initial work
+combining topic modeling and digital humanities blogs. Jockers analyzed one year's
+worth of Day of DH blog posts<ref type="note" target="n11" n="11">11</ref> and Meeks produced a model and visualizations of a
+    variety of texts discussing the question "What are the digital humanities?"<ref type="note" target="n12" n="12">12</ref> This study
+continues these initial works with a broader breadth of data and deeper analysis of the
+results.</p>
+    <p>This poster presents initial findings and an innovative mixed methodological
+    approach combining topic modeling,<ref type="note" target="n13" n="13">13</ref> a form of computational text mining, with grounded theory,<ref type="note" target="n14" n="14">14</ref> a method for developing analytical concepts from interpretivist  social science. This mixture of methods enables both a "distant reading" of a vast textual
+corpus while also rigorously reading individual texts to better analyze and articulate the
+content of scholarly discourse. Leveraging the Compendium of Digital Humanities,<ref type="note" target="n15" n="15">15</ref> a
+curated list of blogs produced by Digital Humanities Now, I archive, mine, visualize, and
+interpret these communications paying special attention to the discursive work of
+community constitution.</p>
+    <p>The contribution of this poster is twofold. First, it presents a <hi rend="italic">data driven</hi>
+landscape of scholarly communication. Using tools and techniques from information
+visualization, I represent a topic model of discourse on digital humanities blogs using a
+javascript visualization framework, Data Driven Documents.<ref type="note" target="n16" n="15">16</ref> Second, it presents a
+rigorous methodological procedure for the analyzing topic models rooted in an
+interpretivist qualitative analysis framework, grounded theory. Leveraging grounded
+theory this study informs our understanding of scholarly communities in-formation with
+an interpretive, grounded, empirical analysis of a computational model and its
+concomitant texts.</p>
+</div>
+
+</body>
+
+<back>
+<div type="Notes">
+
+<note xml:id="n01" n="1">Gold, Matthew K., ed. <hi>(2012). Debates in the Digital Humanities</hi>. Univ Of Minnesota Press.</note>
+<note xml:id="n02" n="2">Hockey, S. "The History of Humanities Computing." <hi rend="italic">A Companion to Digital Humanities</hi>.
+2004.</note>
+<note xml:id="n03" n="3">Busa, R. "Foreword: Perspectives on the Digital Humanities." In <hi>A Companion to Digital
+Humanities</hi>. 2004.</note>
+<note xml:id="n04" n="4">Cohen, Dan. "Professors, Start Your Blogs." 2006.
+<ref type="url" target="http://www.dancohen.org/2006/08/21/professors-start-your-blogs/">http://www.dancohen.org/2006/08/21/professors-start-your-blogs/</ref></note>
+<note xml:id="n05" n="5">Saper, C. "Blogademia." <hi>Reconstruction</hi> 6, no. 4 (2006). <ref type="url" target="http://www.citeulike.org/group/1736/article/1108357">http://www.citeulike.org/group/1736/article/1108357</ref>.</note>
+<note xml:id="n06" n="6">Hank, C. F. "Scholars and their Blogs: Characteristics, Preferences, and Perceptions
+Impacting Digital Preservation". University of North Carolina, 2011.
+<ref type="url" target="http://ils.unc.edu/~wildem/ASIST2011/Hank-diss.pdf">http://ils.unc.edu/~wildem/ASIST2011/Hank-diss.pdf</ref>.</note>
+<note xml:id="n07" n="7"><ref type="url" target="http://digitalhumanitiesnow.org">http://digitalhumanitiesnow.org</ref></note>
+<note xml:id="n08" n="8"><ref type="url" target="http://journalofdigitalhumanities.org/">http://journalofdigitalhumanities.org/</ref></note>
+<note xml:id="n09" n="9">Pannapacker, William. "Pannapacker at MLA: Digital Humanities Triumphant?"
+2011.
+<ref type="url" target="http://chronicle.com/blogs/brainstorm/pannapacker-at-mla-digital-humanities-triumphant/30915">http://chronicle.com/blogs/brainstorm/pannapacker-at-mla-digital-humanities-triumphant/30915</ref></note>
+<note xml:id="n10" n="10">Terras, Melissa. "Infographic: Quantifying Digital Humanities." 2012.
+<ref type="url" target="http://melissaterras.blogspot.com/2012/01/infographic-quanitifying-digital.html">http://melissaterras.blogspot.com/2012/01/infographic-quanitifying-digital.html</ref></note>
+<note xml:id="n11" n="11">Jockers, Matthew. "Who's Your DH Blog Mate: Match-Making the Day of DH Bloggers with
+Topic Modeling" 2010.
+<ref type="url" target="http://www.matthewjockers.net/2010/03/19/whos-your-dh-blog-mate-match-making-the-day-of-dh-bloggers-with-topic-modeling/">http://www.matthewjockers.net/2010/03/19/whos-your-dh-blog-mate-match-making-the-day-of-dh-bloggers-with-topic-modeling/</ref></note>
+<note xml:id="n12" n="12">Meeks, Elijah. "Comprehending the Digital Humanities." 2011.
+<ref type="url" target="https://dhs.stanford.edu/comprehending-the-digital-humanities/">https://dhs.stanford.edu/comprehending-the-digital-humanities/</ref></note>
+<note xml:id="n13" n="13">Blei, D. M., A. Y. Ng, and M. I. Jordan. "Latent Dirichlet Allocation." <hi>The Journal of Machine
+Learning Research</hi> 3 (2003): 993–1022.</note>
+<note xml:id="n14" n="14">Glaser, Barney G., and Anselm Strauss. <hi>The Discovery of Grounded Theory: Strategies for
+Qualitative Research</hi>. Aldine Transaction, 1967.
+Charmaz, Kathy. Constructing Grounded Theory: A Practical Guide Through Qualitative
+Analysis. 1st ed. Sage Publications Ltd, 2006.</note>
+<note xml:id="n15" n="15">
+<ref type="url" target="http://tinyurl.com/kaj2vpl">http://tinyurl.com/kaj2vpl</ref></note>
+<note xml:id="n16" n="16"><ref type="url" target="http://d3js.org/">http://d3js.org/</ref></note>
+</div>
+
+
+</back>
+</text>
+</TEI>    

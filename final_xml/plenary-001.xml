@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://jetson.unl.edu/cdrh/schemas/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" xml:id="plenary-001">
+    
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Opening Keynote</title>
+                <author>
+                    <name>
+                        <surname>Ferriero</surname>, 
+                        <forename>David S.</forename>
+                    </name>
+                    <affiliation>Archivist of the United States</affiliation>
+                    <email></email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <publisher>University of Nebraska-Lincoln</publisher>
+                <distributor>
+                    <name>Center for Digital Research in the Humanities</name>
+                    <address>
+<addrLine>319 Love Library</addrLine>
+<addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+<addrLine>cdrh@unl.edu</addrLine>
+</address>
+                </distributor>
+                <pubPlace>Lincoln, Nebraska</pubPlace> 
+                <address>
+<addrLine>University of Nebraska-Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+                <availability>
+                    <p></p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+<p>
+<date when="20130716"></date>
+<time when="17:30:00"></time>
+</p>
+<p n="session">Plenary</p>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <textClass>
+                <keywords scheme="original" n="category">
+                    <term>Plenary</term>
+                </keywords>
+                <keywords scheme="original" n="subcategory">
+                    <term></term>
+                </keywords>
+                <keywords scheme="original" n="topic">
+                    <term></term>
+                </keywords>
+                <keywords scheme="original" n="keywords">
+                    <term></term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change>
+                <date/>
+                <name/>
+                <desc/>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text type="paper">
+        <body>
+            <div type="intro_material">
+                
+                <head>Harnessing the Wisdom of the Crowd: The Citizen Archivist Program at the National Archives</head>
+                
+                
+                
+                <p>In articulating his commitment to transparency, collaboration, and participation in his administration, President Obama said to his senior staff, on his first day in office:</p>
+                
+                <p>"Our commitment to openness means more than simply informing the American people about how decisions are made. It means recognizing that Government does not have all the answers, and that public officials need to draw on what citizens know. And that's why, as of today, I'm directing members of my administration to find new ways of tapping the knowledge and experience of ordinary Americans—scientist and civic leaders, educators and entrepreneurs…"</p>
+                
+                <p>One member of that administration, David S. Ferriero, Archivist of the United States, describes how his agency had embraced the President's message and engaged the American public in the work of the National Archives.</p>
+                
+               
+                
+            </div>
+            <div type="intro_material">
+                
+                <head type="sub">Biography</head>
+                
+                <p>The Honorable David S. Ferriero was sworn in as 10th Archivist of the United States on November 13, 2009.</p>
+                
+                <p>The Archivist of the United States, appointed by the President of the United States, 
+                    is the head of the National Archives and Records Administration, an agency of the 
+                    Executive Branch of the Government. The agency is responsible for providing guidance 
+                    to the White House and the Executive Branch agencies and departments on the 
+                    creation and maintenance of their records. It oversees the transfer to the National 
+                    Archives of the permanently valuable records of the federal government and makes 
+                    them available for study. Those records include the Oaths of Allegiance signed by 
+                    George Washington and his troops at Valley Forge, the Declaration of Independence, 
+                    the Constitution, and the Bill of Rights.</p>
+                
+                <p>This collection translates into about 12 billion sheets of paper, 40 million photographs, 
+                    miles and miles of video and film, and more than 5.3 billion electronic records. The 
+                    records are housed in facilities around the country, from Anchorage, Alaska to Atlanta, 
+                    Georgia — including 2 Washington, DC, area buildings, 14 Regional Archives, 17 Federal 
+                    Records Centers, 13 Presidential Libraries, and the National Personnel Records 
+                    Center.</p>
+                
+                <p>Previously, Mr. Ferriero served as the Andrew W. Mellon Director of the New York Public 
+                    Libraries (NYPL). In this position he was part of the leadership team responsible for 
+                    integrating the 4 research libraries and 87 branch libraries into one seamless service 
+                    for users; and was in charge of collection strategy; conservation; digital experience 
+                    and strategy; reference and research services; and education, programming, and 
+                    exhibitions.</p>
+                
+                <p>Before joining the NYPL in 2004, Mr. Ferriero served in top positions at two of the 
+                    nation's major academic libraries, the Massachusetts Institute of Technology in 
+                    Cambridge, MA, and Duke University in Durham, NC.</p>
+                
+                <p>Mr. Ferriero earned bachelor's and master's degrees in English literature from 
+                    Northeastern University in Boston and a master's degree from the Simmons College of 
+                    Library and Information Science, also in Boston. He served as a hospital corpsman in 
+                    the Navy during the Vietnam War.</p>
+                
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
+

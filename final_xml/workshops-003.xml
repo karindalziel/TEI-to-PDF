@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://jetson.unl.edu/cdrh/schemas/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" xml:id="workshops-003">
+
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title><hi>Using Open Annotation</hi></title>
+<author>
+<name>
+<surname>Cole</surname>, <forename>Timothy W.</forename>
+</name>
+<affiliation>Mathematics and Digital Content Access Librarian and Professor of Library and Information Science at the University of Illinois</affiliation>
+</author>
+<author>
+<name>
+<surname>Gerber</surname>, <forename>Anna</forename>
+</name>
+<affiliation>Technical Project Manager with the ITEE eResearch group at The University of Queensland, Australia</affiliation>
+</author>
+<author>
+<name>
+<surname>Sanderson</surname>, <forename>Robert</forename>
+</name>
+<affiliation>Co-chair of the W3C Open Annotation Community Group and co-editor of the specification</affiliation>
+</author>
+<author>
+<name>
+<surname>Smith</surname>, <forename>James</forename>
+</name>
+<affiliation>Software Architect at the Maryland Institute for Technology in the Humanities (University of Maryland)</affiliation>
+</author>
+
+</titleStmt>
+<publicationStmt>
+<authority></authority>
+<publisher>University of Nebraska-Lincoln</publisher>
+<distributor>
+<name>Center for Digital Research in the Humanities</name>
+<address>
+<addrLine>319 Love Library</addrLine>
+<addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+<addrLine>cdrh@unl.edu</addrLine>
+</address>
+</distributor>
+<pubPlace>Lincoln, Nebraska</pubPlace> 
+<address>
+<addrLine>University of Nebraska-Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+<availability>
+<p></p>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<p>No source: created in electronic format.</p>
+<p>
+<date when="20130715"></date>
+<time when="08:00:00"></time>
+</p>
+<p n="session">Workshop</p>
+</sourceDesc>
+</fileDesc>
+
+<profileDesc>
+<textClass>
+<keywords scheme="original" n="category">
+<term>Workshops</term>
+</keywords>
+</textClass>
+</profileDesc>
+
+<revisionDesc>
+<change>
+<date when="2013-05-28"></date>
+<name>Erin Pedigo</name>
+<desc>Initial encoding</desc>
+</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="paper">
+<body>
+<div>
+
+<head>Brief Description</head>
+
+    <p>Annotation is a long-established scholarly primitive<ref type="note" target="n01" n="1">1</ref> supporting digital humanities scholarly workflows and practices. As the humanities scholars use of retrospectively and born-digital materials grows so too does the need for robust, standards-based annotation tools and services that can span content repositories and Web application boundaries.</p>
+<p>Over the course of this half-day workshop we will examine the current and prospective role of annotation in digital humanities scholarship and investigate the potential utility of the Open Annotation data model specification<ref type="note" target="n02" n="2">2</ref> recently released by the W3C Open Annotation Community Group.<ref type="note" target="n03" n="3">3</ref> Participants will consider whether this specification can help encourage the extension of existing tools and the development of new more robust, interoperable Web-based annotation tools and services in ways that can better meet the needs of the digital humanities scholarly community. Prior to the Workshop, each participant will be asked to submit a brief (1 to 2 page) summary giving their initial assessment of the Open Annotation data model in the context of a specific annotation application, research requirement or use case drawn from his or her own scholarship. All summary assessments submitted will be posted on a Workshop Website (to be maintained by the Open Annotation Collaboration)<ref type="note" target="n04" n="4">4</ref> and a subset of these assessments will be presented by participants and discussed during the Workshop. In addition the Workshop Leaders will present results from several of the concrete annotation demonstration experiments conducted over the last 18 months by the Open Annotation Collaboration. The current status of Web-based digital annotation tools, services, practices and communities will be reviewed with the goal of illuminating critical facets of infrastructure beyond the scope of the Open Annotation data model or areas of the data model which require further refinement. Outcomes from the Workshop will help identify potential priorities and future directions for the W3C Open Annotation Community Group. Participants will gain a better understanding of the Open Annotation data model, its implementation, and its potential as a resource supportive of their future work.</p>
+<p>If accepted, budget for this proposed Workshop will be underwritten by the Open Annotation Collaboration, a project based at the University of Illinois at Urbana-Champaign and funded by a generous grant from the Andrew W. Mellon Foundation. OAC was one of the initiatives, along with the Annotation Ontology initiative,<ref type="note" target="n05" n="5">5</ref> that founded the W3C Open Annotation Community Group. This workshop represents an opportunity to explore the annotation needs of digital humanists and ensure that these needs are factored into the future plans of the W3C Open Annotation Community Group.</p>
+</div>
+
+<div>
+<head>Additional Contributors</head>
+
+<list type="unordered">
+
+<item>Paolo Ciccarese, Biomedical Informatics Research &amp; Development, MIND Informatics, Instructor at the Harvard Medical School and Assistant in Neurology at the Massachusetts General Hospital.</item>
+
+    <item>Jane Hunter, Professorial Research Fellow &amp; Leader of the eResearch Lab, School of ITEE, The University of Queensland.</item>
+
+    <item>Jacob Jett, Visiting Project Coordinator, Center for Informatics in Science and Scholarship, GSLIS, University of Illinois at Urbana-Champaign.</item>
+
+    <item>Herbert Van de Sompel, Information Scientist at the Los Alamos National Laboratory and leader of the LANL Research Library Digital Library Research &amp; Prototyping Team</item></list>
+</div>
+
+<div>
+<head>Target Audience</head>
+
+    <p>We anticipate an audience of about 25 digital humanities tool and Web service developers and technology managers responsible for digital library services, scholarly discourse services, note-taking software and similar Web-based applications. Registration is open (i.e., non-competitive) until full; however, registrants will be advised that we will ask each of them to submit a position paper (see below).</p>
+</div>
+
+<div>
+<head>Half-day Workshop Agenda Outline</head>
+
+<list>
+
+    <item>1. Open Annotation Introduction &amp; Overview (30 minutes)</item>
+
+    <item>2. Example implementations / demonstrations from OAC Experiments (60 minutes)</item>
+
+    <item>3. Q &amp; A Session (30 minutes)</item>
+
+    <item>4. [break] (15 minutes)</item>
+
+    <item>5. Participant presentations (90 minutes)</item>
+
+    <item>6. Discussion (30 minutes)</item></list>
+
+</div>
+</body>
+
+<back>
+
+
+<div type="note">
+<head>Notes</head>
+
+    
+<note xml:id="n01" n="1">Unsworth, building on a theme from Aristotle, uses the term scholarly primitives "to refer to some basic
+functions common to scholarly activity across disciplines, over time, and independent of theoretical orientation."
+Unsworth, John. 2000. "Scholarly Primitives: what methods do humanities researchers have in common, and how
+might our tools reflect this?" Presented at Humanities Computing: formal methods, experimental practice, King's
+College, London, May 13, 2000. Available: http://www3.isrl.uiuc.edu/~unsworth/Kings.5-00/primitives.html</note>  
+
+<note xml:id="n02" n="2">http://www.openannotation.org/spec/core/20130208/</note>  
+
+<note xml:id="n03" n="3">http://www.w3.org/community/openannotation/</note>  
+
+<note xml:id="n04" n="4">http://www.openannotation.org/Partners.html</note>  
+
+<note xml:id="n05" n="5">5 http://code.google.com/p/annotation-ontology/</note>  </div>
+
+
+</back>
+</text>
+</TEI>
+

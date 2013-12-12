@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://jetson.unl.edu/cdrh/schemas/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PaperDemo-143">
+
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Freedom and Flow: A New Approach to Visualizing Poetry</title>
+<author>
+<name><surname>Abdul-Rahman</surname>, <forename>Alfie</forename></name>
+<affiliation>University of Oxford, UK</affiliation>
+<email>alfie.abdulrahman@oerc.ox.ac.uk</email>
+</author>
+<author>
+<name><surname>Coles</surname>, <forename>Katharine</forename></name>
+<affiliation>University of Utah, USA</affiliation>
+<email>k.coles@english.utah.edu</email>
+</author>
+<author>
+<name><surname>Lein</surname>, <forename>Julie</forename></name>
+<affiliation>University of Utah, USA</affiliation>
+<email>jkglein@gmail.com </email>
+</author>
+<author>
+<name><surname>Wynne</surname>, <forename>Martin</forename></name>
+<affiliation>University of Oxford, UK</affiliation>
+<email>martin.wynne@it.ox.ac.uk</email>
+</author>
+</titleStmt>
+<publicationStmt>
+<authority></authority>
+<publisher>University of Nebraska-Lincoln</publisher>
+<distributor>
+<name>Center for Digital Research in the Humanities</name>
+<address>
+<addrLine>319 Love Library</addrLine>
+<addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+<addrLine>cdrh@unl.edu</addrLine>
+</address>
+</distributor>
+<pubPlace>Lincoln, Nebraska</pubPlace> 
+<address>
+<addrLine>University of Nebraska-Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+<availability>
+<p></p>
+</availability>
+</publicationStmt>
+
+<notesStmt><note type="abstract">A multidisciplinary team of scientific visualization experts, a linguist and poet/scholars in the USA and UK have developed new visualization techniques for English poetry which take account of the sonic, time-based, multi-dimensional nature of poetry, and the qualitative, interpretative, iterative and exploratory nature of poetic reading.</note></notesStmt>
+
+<sourceDesc>
+<p>No source: created in electronic format.</p>
+<p>
+<date when="20130717"></date>
+<time when="13:30:00"></time>
+</p>
+<p n="session">LP08</p>
+</sourceDesc>
+</fileDesc>
+
+<profileDesc>
+<textClass>
+<keywords scheme="original" n="category">
+<term>Paper</term>
+</keywords>
+<keywords scheme="original" n="subcategory">
+<term>Long Paper</term>
+</keywords>
+<keywords scheme="original" n="keywords">
+<term>poetry</term>
+<term>visualization</term>
+</keywords>
+<keywords scheme="original" n="topic">
+<term>literary studies</term>
+<term>stylistics and stylometry</term>
+<term>text analysis</term>
+<term>interdisciplinary collaboration</term>
+<term>creative and performing arts</term>
+<term>including writing</term>
+<term>english studies</term>
+<term>visualisation</term>
+</keywords>
+</textClass>
+</profileDesc>
+
+<revisionDesc>
+<change>
+<date when="2013-04-03"></date>
+<name>Laura Weakly</name>
+<desc>Initial encoding</desc>
+</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="paper">
+<body>
+<div>
+
+<div>
+<p>Much research in the digital humanities has been data-driven and quantitative, and while these methodologies and projects have led to substantial scholarship and vastly improved access to texts, such approaches can also risk diverting us from established values and concerns within the humanities. Under an international Digging Into Data Challenge grant, our team of computer scientists, a linguist, and poet/scholars from the University of Oxford and the University of Utah have been working to move beyond counting to create, through computation and visualization, a richer understanding of how poems work: one that embraces qualitative as well as quantitative components and that engages the perspectives and research needs specific to the humanities in general and to literature, especially poetry, in particular. This paper will describe the challenges and opportunities presented by such multidisciplinary collaboration, and demonstrate how the new visualization tool we are developing provides literary scholars freedom to explore individual poems and bodies of poetry in ways traditional scholarship and other text analysis software cannot. Specifically, we will show how our new approach, by treating poems as complex dynamic systems, opens new interpretive directions via the metaphor of <hi rend="italic">flow</hi>.</p>
+
+<p>Dixon (2012, 200) notes that within digital humanities, ‘researchers often appear to be dragged towards more scientific interpretations and methods,’ observing that reasons for these shifts might arise from researchers’ own inclinations, but also as a result of the very tools often utilized in this new field. Tools not only influence scientific or humanist orientations, however; they can also augment or diminish our understanding of the subjects we study. A quarter century ago, in their seminal book <hi rend="italic">Understanding Computers and Cognition</hi>, Winograd and Flores (1986, xi) perceived that ‘in designing tools we are designing ways of being’. And for this reason, scholars like Drucker (2011) and Schmidt (2012) have argued forcefully that humanists should actively participate in software design, bringing our disciplinary perspectives to bear on shaping the digital tools we want to use. In the case of literature, available tools have oversimplified poetry, requiring scholars to contort and contract their scholarship. The closest existing tool to the one we are working on is Myopia, presented by Laura Mandell at last summer’s Digital Humanities conference (Chaturvedi et al. 2012).  Myopia deals with more complexity in poetry than other programs, attending to meter, sound, syntax, and other poetic devices like metaphor and personification. However, it does so through coding structures developed for other disciplines, rather than incorporating into its design the disciplinary perspective we seek.  Fortunately, the computer scientists in our group have not only been open to the input of the poets, they have persistently sought it, leading the poets to new insights about poetry and language. At the same time, the interests and needs the poets identified have pushed the visualization scientists to make groundbreaking advances in their own field.</p> 
+
+<p>Poetry scholars see poems as living and relational. The strong reader produces innovative interpretations even of poems that may already have been subject to many previous interpretations by looking at how language is operating across multiple poetic elements, from rhyme and meter, to the use of such figures as metaphor and metonymy, to tone, to the emotional affect that may inhere in specific words. Though we can list these elements as if they are discrete, of course they are not: the emotional affect of a word will influence the poem’s tone, for example, just as metaphors and sonic features work to create and enhance emotion. To adequately address these various elements, any visualization tool must treat poems as multi-dimensional. They not only exist in space but also exist in and change through time, which operates both forward (left-to-right across the line and down the page) and backward.  Though almost every poetic device works in this way, the simplest example of poetry’s double movement through time is end rhyme: if two quatrains of a Shakespearean sonnet rhyme abba/abba, each recurrence of the rhyme once it is established not only moves the reader forward, through anticipation, toward the next occurrence, but also sends the reader backward by evoking all previous occurrences. Such nuanced dynamism presents individual poems as highly complex and uncertain, with each word, each sound, each poetic figure and device relating and responding to one another. It demands that visualizations be time dependent and able to handle various poetic elements not only independently but relationally, something we believe has not been accomplished before. </p> 
+
+<p>Our current visualization tool, PoemViewer, focuses on the specific but complex task of tracing the movement of sound through the defined space of almost any poem or poem fragment (Abdul-Rahman et al. 2013). In response to a questionnaire produced by the Oxford team, the poets determined that this single poetic device involves twenty-six distinct variables.  As Ware (2012) explains, though, visual design for such high dimensional data is challenging due to limitations of human visual perception and the number of visual channels available. For these reasons, visualizations&#8212;excluding approaches like parallel coordinates and scatterplot matrices (Inselberg and Dimsdale 1990; Wilkinson et al. 2005)&#8212;typically are constrained to no more than nine dimensions (Kindlmann 2004). PoemViewer encodes twenty-six dimensions using d3.js (Bostock, Ogievetsky &amp; Heer 2011; Bostock 2013), a JavaScript library that utilizes SVG, HTML and CSS for data visualization. PoemViewer is a web-based application that can run on all modern browsers. It uses common existing linguistic models and tools, such as the International Phonetic Alphabet (1999) for classifying sounds, and the CLAWS (UCREL 2013) part-of-speech tagger for morpho-syntactic word classes.</p> 
+
+<p>Still, not all poetic features need to be visualized at once. In order to create visualizations relevant to particular interests in a particular poem (and to avoid becoming visually overwhelmed), readers can choose which linguistic variables to view&#8212;in isolation or relation&#8212;at any given time (see Fig. 1). For instance, our interactive tool can identify assonance (the recurrence of vowel sounds) and consonance (the recurrence of consonant sounds) as they occur within a specific poem in time.  But by tracking each phonetic placement as it is formed in the mouth, our software can also reveal how sounds relate to and change each other; it can, for example, reveal modulation between long and short vowels in a poem like Louise Bogan’s “Night” (1968, 130). During our presentation we will share additional images, including more screenshots of the tool and its components (menus, legends, etc.) as well as visualizations it can produce&#8212;both of singles poems and in comparing multiple poetic and non-poetic texts. Of specific interest are insights drawn from our tracking of how sounds are formed in the mouth and about how poetry behaves differently from prose in its use of sound.</p>
+
+<p>Among the other breakthroughs we have gained through this work on sound is the development of a powerful metaphor for poetry that will move us forward as we continue our work.  Specifically, our work on this tool has led us to think of the poem as <hi rend="italic">a fluid (or fluids) moving via its linguistic elements, devices and figures through a self-defined space</hi>. Given that a poem, unlike a fluid, has no material analogue in the world, one of our challenges will involve identifying and digitizing those specific elements of the poem in addition to sound that we believe make it behave metaphorically as a fluid does, with the goal of adding new capabilities to our existing model.  Elements that are of particular interest to poetry scholars include, among others, syntax, meter, and figure.  Eventually, we expect to extend our original tools to analyze different poetic features as they interact within poems, across bodies of work by individual poets, and finally across large numbers of poems representing different poets in different literary periods. We anticipate applying this software to large poetry corpora to detect formal patterns, and conduct explorations such as, for example, recognizing, examining, and beginning to explain widespread poetic responses to historical events, social phenomena, or technological invention. </p>
+
+<figure><graphic url="ab-143.001"></graphic><head>Figure 1:</head> <p>Screenshot of PoemViewer visualization of <hi rend="italic">Night</hi> by Louise Bogan © 2013 Alfie Abdul-Rahman, Oxford e-Research Centre</p></figure>
+</div>
+
+<div>
+<head>Funding</head>
+<p>This work was supported by a Digging Into Data Challenge grant: in the US, by the National Endowment for the Humanities; and in the UK by the Arts and Humanities Research Council, Economic and Social Research Council, and JISC. We would like to acknowledge Min Chen, Christopher Johnson, Eamonn Maguire, and Miriah Meyer for their collaboration on this project.</p>
+</div>
+
+
+
+                
+</div>
+
+</body>
+
+<back>
+<div type="References">
+<listBibl>
+<bibl><hi rend="bold">Abdul-Rahman, A., J. Lein, K. Coles, E. Maguire, M. Meyer, M. Wynne, A. Trefethen, C. R. Johnson, and M. Chen</hi> (2013). Rule-based Visual Mappings&#8212;with a Case Study on Poetry Visualization. Paper conditionally accepted to <hi rend="italic">EuroVis</hi>, Leipzig, Germany.</bibl>
+
+<bibl><hi rend="bold">Bogan, L.</hi> (1968). “Night” <hi rend="italic">The Blue Estuaries: poems 1923-1968</hi>.  New York: Farrar, Straus, and Giroux. </bibl>
+
+<bibl><hi rend="bold">Bostock, M.</hi> (2013). Data-Driven Documents. <ref type="url" target="http://d3js.org/">http://d3js.org/</ref> (accessed 4 February 2013).</bibl>
+
+<bibl><hi rend="bold">Bostock, M., V. Ogievetsky, and J. Heer</hi> (2011). 'D3: Data-Driven Documents. Transactions on Visualization and Computer Graphics'. <hi rend="italic">Proceedings of InfoVis 2011 IEEE</hi>, 2301-2309.  <ref type="url" target="http://vis.stanford.edu/papers/d3">http://vis.stanford.edu/papers/d3</ref> (accessed 7 January 2013).</bibl>
+
+<bibl><hi rend="bold">Chaturvedi, M., G. Gannod,  L. Mandell, H. Armstrong, and E. Hodgson</hi> (2012). Myopia: A Visualization Tool in Support of Close Reading. <hi rend="italic">Digital Humanities 2012</hi>. University of Hamburg, July 2012. <ref type="url" target="http://lecture2go.uni-hamburg.de/konferenzen/-/k/13930">http://lecture2go.uni-hamburg.de/konferenzen/-/k/13930</ref> (accessed 6 September 2012). </bibl>
+
+<bibl><hi rend="bold">Dixon, D. </hi> (2012). Analysis Tool or Research Methodology: Is there an Epistemology for Patterns?. In Berry, D. M. (ed). <hi rend="italic">Understanding Digital Humanities</hi>. New York: Palgrave Macmillan.  191-209.</bibl> 
+
+<bibl><hi rend="bold">Drucker, J.</hi> (2011). Humanities Approaches to Graphical Display. <hi rend="italic">Digital Humanities Quarterly</hi> <hi>5:1</hi> http://digitalhumanities.org/dhq/vol/5/1/000091/000091.html (accessed 8 September 2012).</bibl>
+
+<bibl><hi rend="bold">Inselberg, A., and B. Dimsdale</hi> (1990). 'Parallel coordinates: A tool for visualizing multi-dimensional geometry'. <hi rend="italic">Proceedings of the 1st Conference on Visualization</hi> held in 1990.  361-378.</bibl>
+
+<bibl><hi rend="bold">International Phonetic Association.</hi> (1999). <hi rend="italic">Handbook of the International Phonetic Association: A Guide to the Use of the International Phonetic Alphabet</hi>. Cambridge: Cambridge University Press.</bibl>
+
+<bibl><hi rend="bold">Kindlmann, G.</hi> (2004). <hi rend="italic">Superquadric tensor glyphs, Proceedings of the 6th Joint Eurographics- IEEE TCVG Conference on Visualization</hi> held in 2004. 147-154.</bibl> 
+
+<bibl><hi rend="bold">Schmidt, B.</hi> (2012). 'Reading Genres: Exploring Massive Digital Collections from the Top Down'. in <hi rend="italic">Big Data and Uncertainty in the Humanities</hi>. held at Institute for Digital Research in the Humanities. Lawrence, KS.</bibl>
+
+<bibl><hi rend="bold">UCREL.</hi> <hi rend="italic">Claws Part-of-Speech Tagger for English</hi>. <ref type="url" target="http://ucrel.lancs.ac.uk/claws/">http://ucrel.lancs.ac.uk/claws/</ref> (accessed 7 January 2013). </bibl>
+
+<bibl><hi rend="bold">Ware, C.</hi> (2012). <hi rend="italic">Information Visualization</hi>, 3rd edn. San Francisco: Morgan Kaufmann. </bibl>
+
+<bibl><hi rend="bold">Winograd, T., and F. Flores</hi> (1986). <hi rend="italic">Understanding Computers and Cognition: A New Foundation for Design</hi>. Norwood, NJ: Ablex.</bibl>
+
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>
+

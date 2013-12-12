@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://jetson.unl.edu/cdrh/schemas/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" xml:id="intro-007">
+
+<teiHeader>
+<fileDesc>
+<titleStmt>
+    <title>Welcome from the Program Committee Chair</title>
+<author>
+<name>
+    <surname>Nowviskie</surname>, 
+    <forename>Bethany </forename>
+</name>
+    <affiliation>Scholars’ Lab, University of Virginia, USA</affiliation>
+    <email>bethany@virginia.edu</email>
+</author>
+</titleStmt>
+<publicationStmt>
+<authority></authority>
+<publisher>University of Nebraska-Lincoln</publisher>
+<distributor>
+<name>Center for Digital Research in the Humanities</name>
+<address>
+<addrLine>319 Love Library</addrLine>
+<addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+<addrLine>cdrh@unl.edu</addrLine>
+</address>
+</distributor>
+<pubPlace>Lincoln, Nebraska</pubPlace> 
+<address>
+<addrLine>University of Nebraska-Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+<availability>
+<p></p>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<p>No source: created in electronic format.</p>
+</sourceDesc>
+</fileDesc>
+
+<profileDesc>
+<textClass>
+<keywords scheme="original" n="category">
+<term>Intro</term>
+</keywords>
+<keywords scheme="original" n="subcategory">
+<term></term>
+</keywords>
+<keywords scheme="original" n="topic">
+<term></term>
+</keywords>
+<keywords scheme="original" n="keywords">
+<term></term>
+</keywords>
+</textClass>
+</profileDesc>
+
+<revisionDesc>
+<change>
+<date/>
+<name/>
+<desc/>
+</change>
+</revisionDesc>
+</teiHeader>
+
+    <text type="paper" n="single">
+<body>
+<div type="intro_material">
+    
+    <head type="author">Bethany Nowviskie</head>
+    <head type="email">bethany@virginia.edu</head>
+    <head type="title">Scholars’ Lab, University of Virginia, USA</head>
+
+    <p>2013 is a banner year, as we celebrate the 25th joint international conference of the Association for Computers and the Humanities (ACH) and ALLC: the European Association for Digital Humanities, organized in the past six years with a growing number of key collaborators and partnering professional organizations. These now include the Canadian Society for Digital Humanities (CSDH/SCHN), the Australasian Association for Digital Humanities (aaDH), and centerNet. As planning for next year begins, we welcome the contributions of the Japanese Association for Digital Humanities (JADH). But the conference hosted by our strong Alliance of Digital Humanities Organizations is not just an international affair: it is also wildly interdisciplinary and—like the community of practice we call “DH”—thoroughly inter-professional in character.</p>
+    
+    <p>As in past years, the International Program Committee, aided by a host of volunteer peer reviewers, faced the problem of an abundance of riches. I would like to thank our splendid Nebraskan local organizers for accommodating a greater number of parallel sessions than usual, so that we could increase the diversity of offerings at <hi rend="italic">Digital Humanities 2013</hi>. We look forward to hearing from all of you, and from our plenary speakers. These are David Ferriero, 10th Archivist of the United States; Isabel Galina of the Instituto de Investigaciones Bibliográficas at the National University of Mexico; and the winner of ADHO’s highest honor, the Roberto Busa Award for outstanding lifetime achievements in the application technology to humanistic research: Professor Willard McCarty.</p>
+    
+    <p>My sincere thanks go to fellow members of our stalwart Program Committee: Craig Bellamy (ACH); John Bradley (ALLC); Paul Caton (ACH); Carolyn Guertain (CSDH/SCHN); Ian Johnson (aaDH); Sarah Potvin (cN); Jon Saklofske (CSDH/SCHN); Sydney Shep (aaDH); Melissa Terras (ALLC, vice-chair); Tomoji Tabata (ALLC); Deb Verhoeven (aaDH); and Ethan Watrall (cN). I am likewise grateful to: ADHO’s infrastructure committee (ably chaired by Chris Meister) for sometimes-heroic support of the conference system; to members of our Multilingual and Multicultural Issues Committee (led by Elisabeth Burr) for organizing translations of the CFP and advising the PC through the call and review process; and to the conference’s local organizers (most especially Kay Walter and Karin Dalziel) for their responsiveness and invariable good cheer.  I also wish to thank our 53 session chairs and other volunteers who will enrich the intellectual program in Lincoln, as well as the hundreds of active peer reviewers from around the world who generously provided up to six independent assessments for each of the nearly 350 submissions made to this year’s conference.</p>
+    
+    <p>Finally, I would like to thank ADHO’s Conference Coordinating Committee (chaired by Ray Siemens), the ADHO Steering Committee (chaired by Neil Fraistat with very helpful contributions from John Nerbonne and Julia Flanders), and the wider DH community for support of a number of procedural changes I undertook this year with the endorsement and good energy of the International Program Committee. The goal of our experimentation was to advance an inclusive, fair, and welcoming peer review system, and to make a rigorous <hi rend="italic">Digital Humanities</hi> vetting process as transparent, constructive, and collegial as possible. I hope that the openness of the system and breadth of its results are a good match for the big skies of America’s heartland, and wish all of this year’s attendees the freedom to explore.</p>
+    
+    
+    
+</div>
+
+</body>
+
+
+</text>
+</TEI>
+

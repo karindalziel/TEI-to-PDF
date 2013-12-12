@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://jetson.unl.edu/cdrh/schemas/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PaperDemo-425">
+
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>An Evaluation of the Involvement of General Users in a Cultural Heritage Collection</title>
+<author>
+<name><surname>Agosti</surname>, <forename>Maristella</forename></name>
+<affiliation>University of Padua, Italy</affiliation>
+<email>agosti@dei.unipd.it</email>
+</author>
+<author>
+<name><surname>Benfante</surname>, <forename>Lucio</forename></name>
+<affiliation>University of Padua, Italy</affiliation>
+<email>benfante@dei.unipd.it </email>
+</author>
+<author>
+<name><surname>Manfioletti</surname>, <forename>Marta</forename></name>
+<affiliation>University of Padua, Italy</affiliation>
+<email>manfioletti@dei.unipd.it</email>
+</author>
+<author>
+<name><surname>Orio</surname>, <forename>Nicola</forename></name>
+<affiliation>University of Padua, Italy</affiliation>
+<email>orio@dei.unipd.it</email>
+</author>
+<author>
+<name><surname>Ponchia</surname>, <forename>Chiara</forename></name>
+<affiliation>University of Padua, Italy</affiliation>
+<email>chiara.ponchia1@studenti.unipd.it</email>
+</author>
+</titleStmt>
+<publicationStmt>
+<authority></authority>
+<publisher>University of Nebraska-Lincoln</publisher>
+<distributor>
+<name>Center for Digital Research in the Humanities</name>
+<address>
+<addrLine>319 Love Library</addrLine>
+<addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+<addrLine>cdrh@unl.edu</addrLine>
+</address>
+</distributor>
+<pubPlace>Lincoln, Nebraska</pubPlace> 
+<address>
+<addrLine>University of Nebraska-Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+<availability>
+<p></p>
+</availability>
+</publicationStmt>
+
+<notesStmt><note type="abstract">With the aim of opening up a digital archive developed for researchers in illuminated manuscripts, we carried out a task-oriented evaluation with members of the general public.
+
+The main results regard the difficulties to involve non specialist in using targeted cultural heritage collections, which are likely due to a marginal interest towards the collection content.
+
+On the other hand, users showed a higher interest towards the research activities carried out on the digital content, including all the research process (sources, measurements, analyses).
+
+Thus we propose a shift in the focus of systems for managing cultural heritage digital collections: from tools for disseminating cultural content to tools for involving general users in goals, methods and results of scientific research on the cultural content.</note></notesStmt>
+
+<sourceDesc>
+<p>No source: created in electronic format.</p>
+<p>
+<date when="20130719"></date>
+<time when="10:30:00"></time>
+</p>
+<p n="session">LP22</p>
+</sourceDesc>
+</fileDesc>
+
+<profileDesc>
+<textClass>
+<keywords scheme="original" n="category">
+<term>Paper</term>
+</keywords>
+<keywords scheme="original" n="subcategory">
+<term>Long Paper</term>
+</keywords>
+<keywords scheme="original" n="keywords">
+<term>user evaluation</term>
+<term>illuminated manuscripts</term>
+<term>research tools</term>
+</keywords>
+<keywords scheme="original" n="topic">
+<term>archives</term>
+<term>repositories</term>
+<term>sustainability and preservation</term>
+<term>user studies / user needs</term>
+</keywords>
+</textClass>
+</profileDesc>
+
+<revisionDesc>
+<change>
+<date when="2013-04-29"></date>
+<name>Laura Weakly</name>
+<desc>Initial encoding</desc>
+</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="paper">
+<body>
+<div>
+
+
+<div>
+<head>Introduction</head>
+
+<p>Digital tools are becoming increasingly important research aid in the humanities. Scholars in different disciplines related to cultural heritage are currently exploiting digital resources at different levels, including the simple storage of digital acquisitions of cultural objects in an online collection, the 3D rendering of complete sites, the use of advanced search functions to browse multimedia collections, and the possibility of annotating the digital objects or personalizing interaction with the system.[cit]</p>
+
+<p>Once a digital system has been populated by researchers, a natural step is opening it to a wider public, which is enabled to access culturally relevant content. This extension poses a number of issues that are strictly related to the interest a specialized collection can raise. In this paper we present the results of a user study carried out over two years on two user groups: specialists in the domain and members of the general public.</p></div>
+
+<div>
+<head>Background</head>
+
+<p>In 2003, we designed and have since continued to develop a digital archive (Agosti et al., 2003) of illuminated manuscripts called IPSA (<hi rend="italic">Imaginum Patavinae Scientiae Archivum</hi>). The design was carried out with a user-centered approach, according to the user requirements of professional researchers. The focus of the project was on a collection of scientific manuscripts of Medieval and Renaissance periods, which were influenced by the new spread of scientific culture that saw Padua as one of its main centers. The IPSA collection includes herbals and astrological manuscripts. After scholars had used IPSA as a research tool for a number of years, in 2010 we started a new project to open up IPSA to different kinds of users among the general public. This effort aims at promoting the interest towards ancient manuscript and illumination but, at the same time, is intended as a case study for the dissemination of scientific research in the humanities.</p>
+
+<p>To this end we started to re-evaluate IPSA functions with different groups of users that could have an interest in the IPSA content: students in history of art, students in archival science, and researchers in humanities (but not in history of illumination). In this paper we focus on general trends in the evaluation, with the aim of generalizing the outcomes also to other collections (Sweetnam et al., 2012). Although IPSA is actually restricted online, a subset of the collection will be freely available online once additional functions will be in place.</p>
+</div>
+
+<div>
+<head>Methods</head>
+
+<p>Evaluation was carried out during the academic year 2011-2012, using a task-oriented approach and based on the triptych model of interaction (Fuhr et al., 2007), which considers a system consisting of three elements: collection, technical infrastructure, and people for which the collection is built. Participants were asked to perform simple research tasks on the digital collection, requiring about one hour of interaction that involved the use of the main IPSA functions. A total of about 60 users divided into three groups were involved in the evaluation.</p>
+
+<p>Each user group participated to two evaluation sessions which were two weeks apart. This time span was needed because we decided to implement the main suggestions gathered during the first session in the IPSA interface and functions for the second session. In particular, the interface provided clearer contextual information during image analysis and the query results were presented as a wall of image, thus in a way more familiar to the general public. Moreover, the second evaluation session was introduced by a short lecture on the research methods adopted in history of illumination. The goal was to improve users’ motivation by giving them direct feedback of their suggestions on the interface and, at the same time, to raise their interest in the collection. Users’ comments were gathered using both questionnaires on user satisfaction and open-form interviews. The evaluation process ended with a focused-group discussion on the main aspects of the IPSA functions. Comments were also gathered while users were performing the tasks.</p>
+</div>
+
+<div>
+<head>Outcomes</head>
+
+<p>The evaluation highlighted a number of common characteristics on how non-specialized users consider the IPSA digital archive, and gave some clues to possible threats in proposing to the general public a digital archive that has been developed for professional users. Firstly, all users showed an appreciation on the quality of the digital content, yet they do not express a sustained interested towards the collection. Although almost all users commented on the beauty of the images, only a few of them continued browsing the digital archive for mere personal interest after they had finished the tasks proposed for evaluation.</p>
+
+<p>Moreover, a large number of users focused their comments on details on the user interface, probably because they were not comfortable in providing comments on a subject they were not acquainted with &#8212; as they have no background in history of illuminations. Thus, the evaluation suffered from the “bike-shed effect”, which is well-known in software design and is related to the inverse proportionality between the importance of a subject and the time spent discussing it.</p>
+
+<p>A third outcome regards users’ requests to provide more background information on the digital content. Since it was developed for domain specialists, who are mainly interested in images, IPSA provides only a basic set of descriptive metadata. This information, although relevant and congruent with library standards, was considered insufficient. Users asked for more involvement with the digital content by being provided with access to additional information, such as the research results produced by specialists. Furthermore, we found a substantial difference in user involvement when evaluation sessions were introduced by a lecture on the methods and aims in history of illumination.</p>
+
+<p>During the final discussion, we stimulated users to suggest additional functions that may improve their enjoyment of the digital collection. As expected, most suggestions were about providing IPSA with functions &#8212; in particular on searching &#8212; that are usually available in popular web services and social networks. In general, the evaluation was biased by a continuous comparison with systems not expressly developed for cultural heritage collections, notwithstanding the clear differences in the selection of the content, the quality of completeness of representation between general-purpose systems and specialized collections such as IPSA.</p>
+</div>
+
+<div>
+<head>Discussion</head>
+<p>A comparison of the results of this evaluation with the comments gathered by domain specialists after using IPSA reveals that the primary aspect to take into account is the substantial difference in user interest towards &#8212; for instance &#8212; digital collections of artistic images. This difference exists also between domain specialists and scholars and students in related domains. This aspect affects all the main outcomes described in the previous section. A marginal interest towards the illuminations obviously explains the relative short interaction, which for most users only lasted for the length of the evaluation session, even though they were free to continue exploring the collection. At the same time, the requirement of additional content &#8212; extending the simple collection of images and their metadata &#8212; may also be an expression of an insufficient involvement towards the content and, to a certain extant, the focus on minor details when evaluating the interface.</p>
+
+<p>These outcomes are completely in line with the trends in dissemination of cultural heritage. The application of 3D technology to interact with digital artifacts and navigate inside virtual spaces (Koller et al. 2010), the development of serious games (Falk Anderson et al, 2010) for dissemination purposes, the increasing exploitation of portable and interactive devices &#8212; including users’ portable devices &#8212; all suggest that the cultural content itself is not sufficient to raise interest among the general public.</p>
+
+<p>We believe that all these strategies, although not always paired by extensive user studies on their actual effectiveness, are useful for promoting cultural heritage and improving enjoyment of digital collections even in the presence of marginal user interest.</p>
+
+<p>However, an important outcome of our user study shows a direction that may need further exploration. A relevant part of the participants in our user study showed more interest towards the research process carried out by scholars than towards the subject of the research. That is, users seemed much more involved in understanding the different steps of the research work on illuminated manuscripts, its tools, the motivations of the choices made by scholars, the use of different sources for providing evidence of new hypotheses. This consideration suggests a shift in the focus of a digital collection: from a system for disseminating cultural content to a system for involving general users in goals, methods and results of scientific research on the cultural content.</p>
+
+<p>Such a shift requires a novel design of digital systems in order to provide access to a variety of additional content &#8212; sources, measurements, analyses &#8212; that is routinely used by scholars but which is seldom accessible to the public. Moreover, this approach requires major involvement of domain experts, who would need to allow the system to track their research activity.</p>
+
+<p>This is the approach we have chosen for IPSA, which was created as a research tool and provides methods for keeping track of research results. The further steps will be to make this valuable information available to all users in order to improve their involvement with cultural heritage content.</p>
+</div>
+
+<div>
+<head>Funding</head>
+<p>This work was supported by the CULTURA project (reference: 269973), and by the PROMISE network of excellence project (reference: 258191), within the Seventh Framework Programme of the European Commission.</p>
+</div>
+
+
+                
+</div>
+
+</body>
+
+<back>
+<div type="References">
+<listBibl>
+
+<bibl><hi rend="bold">Agosti, M.,  L. Benfante, and N. Orio.</hi> (2003). I<hi rend="italic">PSA: A Digital Archive of Herbals to Support Scientific Research. Proceedings of the Asian Conference on Digital Libraries</hi>. 253-264.</bibl>
+<bibl><hi rend="bold">Sweetnam, M. S. et al.</hi> (2012). <hi rend="italic">User Needs for Enhanced Engagement with Cultural Heritage Collections. Proceedings of Theory and Practice of Digital Libraries</hi>. 64-75.</bibl>
+<bibl><hi rend="bold">Fuhr, N. et al.</hi> (2007). Evaluation of Digital Libraries. <hi rend="italic">International Journal on Digital Libraries</hi>, 8(1): 21-38.</bibl>
+<bibl><hi rend="bold">Koller, D., B. Frischer, and G. Humphreys.</hi> (2010). Research challenges for digital archives of 3D cultural heritage models. <hi rend="italic">Journal of Computing and Cultural Heritage</hi>. 2(3). 7.1-7.17.</bibl>
+<bibl><hi rend="bold">Falk Anderson, E. et al.</hi> (2010). Developing serious games for cultural heritage: a state-of-the-art review. <hi rend="italic">Virtual Reality</hi>. 14(4): 255-275.</bibl>
+
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>
+

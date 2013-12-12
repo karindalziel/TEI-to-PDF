@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://jetson.unl.edu/cdrh/schemas/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" xml:id="reviewers-001">
+
+<teiHeader>
+<fileDesc>
+<titleStmt>
+    <title>List of Reviewers</title>
+<!--<author>
+<name>
+<surname></surname>
+<forename></forename>
+</name>
+<affiliation>University</affiliation>
+<email></email>
+</author>-->
+</titleStmt>
+<publicationStmt>
+<authority></authority>
+<publisher>University of Nebraska-Lincoln</publisher>
+<distributor>
+<name>Center for Digital Research in the Humanities</name>
+<address>
+<addrLine>319 Love Library</addrLine>
+<addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+<addrLine>cdrh@unl.edu</addrLine>
+</address>
+</distributor>
+<pubPlace>Lincoln, Nebraska</pubPlace> 
+<address>
+<addrLine>University of Nebraska-Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+<availability>
+<p></p>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<p>No source: created in electronic format.</p>
+</sourceDesc>
+</fileDesc>
+
+<profileDesc>
+<textClass>
+<keywords scheme="original" n="category">
+<term>Reviewers</term>
+</keywords>
+<keywords scheme="original" n="subcategory">
+<term></term>
+</keywords>
+<keywords scheme="original" n="topic">
+<term></term>
+</keywords>
+<keywords scheme="original" n="keywords">
+<term></term>
+</keywords>
+</textClass>
+</profileDesc>
+
+<revisionDesc>
+<change>
+<date/>
+<name/>
+<desc/>
+</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="paper">
+<body>
+<div>
+<list>
+
+<item>Alexander, Dr. Marc</item>
+<item>Alsop, Peter Roger</item>
+<item>Alvarado, Dr. Rafael</item>
+<item>Anderson, Dr. Deborah</item>
+<item>Anderson, Sheila</item>
+<item>Andreev, Vadim Sergeevich</item>
+<item>Andrews, Dr. Tara Lee</item>
+<item>Antonijevic, Dr. Smiljana</item>
+<item>Appleford, Simon James</item>
+<item>Arneil, Stewart</item>
+<item>Arthur, Dr. Paul</item>
+<item>Ashton, Andrew Thomas</item>
+<item>Audenaert, Dr. Michael Neal</item>
+<item>Baayen, Prof. Rolf Harald</item>
+<item>Baker, Drew</item>
+<item>Bamman, David</item>
+<item>Bański, Dr. Piotr</item>
+<item>Barney, Brett</item>
+<item>Bartsch, Dr. Sabine</item>
+<item>Baudoin, Dr. Patsy</item>
+<item>Bauer, Jean Ann</item>
+<item>Bauman, Syd</item>
+<item>Baumann, Ryan Frederick</item>
+<item>Beavan, David</item>
+<item>Bellamy, Dr. Craig</item>
+<item>Bennis, Prof. Hans</item>
+<item>Bentkowska-Kafel, Dr. Anna</item>
+<item>Biber, Dr. Hanno</item>
+<item>Bingenheimer, Dr. Marcus</item>
+<item>Blanke, Dr. Tobias</item>
+<item>Bodard, Dr. Gabriel</item>
+<item>Bode, Dr. Katherine</item>
+<item>Boggs, Jeremy</item>
+<item>Bol, Prof. Peter Kees</item>
+<item>Boot, Dr. Peter</item>
+<item>Bordalejo, Dr. Barbara</item>
+<item>Borgman, Prof. Christine L.</item>
+<item>Borin, Prof. Lars</item>
+<item>Boschetti, Dr. Federico</item>
+<item>Bosse, Arno</item>
+<item>Bouchard, Matthew</item>
+<item>Bowen, Prof. William</item>
+<item>Boyd, Dr. Jason Alexander</item>
+<item>Bradley, John</item>
+<item>Brisac, Anne-Laure</item>
+<item>Brown, Prof. James</item>
+<item>Brown, Prof. Susan</item>
+<item>Brown, Travis Robert</item>
+<item>Brughmans, Tom</item>
+<item>Büchler, Marco</item>
+<item>Buchmueller, Sandra</item>
+<item>Burghart, Marjorie</item>
+<item>Burnard, Lou</item>
+<item>Burr, Prof. Elisabeth</item>
+<item>Burrows, Dr. Toby Nicolas</item>
+<item>Buzzetti, Prof. Dino</item>
+<item>Byron, Dr. Mark Stephen</item>
+<item>Canteaut, Dr. Olivier</item>
+<item>Caton, Dr. Paul</item>
+<item>Cayless, Dr. Hugh</item>
+<item>Chamberlain, Dr. Daniel David</item>
+<item>Cheesman, Dr. Tom</item>
+<item>Chen, Dr. Shih-Pei</item>
+<item>Chorney, Dr. Tatjana</item>
+<item>Chue Hong, Neil</item>
+<item>Ciula, Dr. Arianna</item>
+<item>Clavaud, Florence</item>
+<item>Clavert, Dr. Frédéric</item>
+<item>Clement, Dr. Tanya</item>
+<item>Clivaz, Prof. Claire</item>
+<item>Cohen, Dr. Daniel J.</item>
+<item>Connors, Louisa</item>
+<item>Conway, Prof. Paul</item>
+<item>Cooney, Dr. Charles M.</item>
+<item>Cordell, Dr. Ryan</item>
+<item>Cowan, William</item>
+<item>Craig, Prof. Hugh</item>
+<item>Crawford, Tim</item>
+<item>Cream, Prof. Randall</item>
+<item>Crompton, Dr. Constance</item>
+<item>Croxall, Dr. Brian</item>
+<item>Crymble, Adam H.</item>
+<item>Cummings, Dr. James C.</item>
+<item>Cunningham, Dr. Richard</item>
+<item>Czmiel, Alexander</item>
+<item>Dacos, Marin</item>
+<item>Dahlstrom, Dr. Mats</item>
+<item>Dalmau, Michelle</item>
+<item>Dalziel, Karin</item>
+<item>Davis, Dr. Rebecca Frost</item>
+<item>Dawson, Dr. John</item>
+<item>Day, Shawn</item>
+<item>Deegan, Prof. Marilyn</item>
+<item>Delve, Dr. Janet</item>
+<item>Devlin, Dr. Kate</item>
+<item>DiNunzio, Joseph</item>
+<item>Dobrin, Dr. Lise M.</item>
+<item>Dombrowski, Quinn Anya</item>
+<item>Douglass, Prof. Jeremy</item>
+<item>Downie, Prof. J. Stephen</item>
+<item>Dubin, Dr. David S.</item>
+<item>Dunn, Dr. Stuart</item>
+<item>Dunning, Alastair</item>
+<item>Earhart, Dr. Amy</item>
+<item>Eberle-Sinatra, Dr. Michael</item>
+<item>Eckart, Thomas</item>
+<item>Eder, Dr. Maciej</item>
+<item>Edmond, Dr. Jennifer C</item>
+<item>Egan, Dr. Gabriel</item>
+<item>Eide, Øyvind</item>
+<item>Ell, Dr. Paul S.</item>
+<item>Engel, Prof. Deena</item>
+<item>Esteva, Dr. Maria</item>
+<item>Everaert, Prof. Martin</item>
+<item>Fendt, Dr. Kurt E.</item>
+<item>Finn, Prof. Edward</item>
+<item>Fiormonte, Dr. Domenico</item>
+<item>Fischer, Dr. Franz</item>
+<item>Fitzpatrick, Dr. Kathleen</item>
+<item>Flanders, Dr. Julia</item>
+<item>Forest, Dr. Dominic</item>
+<item>Fraistat, Prof. Neil R.</item>
+<item>France, Dr. Fenella Grace</item>
+<item>French, Dr. Amanda</item>
+<item>French, Dr. Scot</item>
+<item>Funkhouser, Prof. Chris</item>
+<item>Furner, Dr. Jonathan</item>
+<item>Furuta, Dr. Richard</item>
+<item>Gallet-Blanchard, Prof. Liliane</item>
+<item>Gants, Prof. David</item>
+<item>Garces, Dr. Juan</item>
+<item>Garfinkel, Dr. Susan</item>
+<item>Gärtner, Prof. Kurt</item>
+<item>Gartner, Richard</item>
+<item>Gibbs, Prof. Fred</item>
+<item>Gibson, Dr. Matthew</item>
+<item>Gil, Alexander</item>
+<item>Gilbert, Joseph</item>
+<item>Gillies, Sean</item>
+<item>Gist, D. Chris</item>
+<item>Goetz, Dr. Sharon K.</item>
+<item>Gold, Dr. Matthew K.</item>
+<item>Goldfield, Dr. Joel</item>
+<item>Gouglas, Dr. Sean</item>
+<item>Gow, Ann</item>
+<item>Gradmann, Prof. Stefan</item>
+<item>Graham, Wayne</item>
+<item>Green, Prof. Harriett Elizabeth</item>
+<item>Gregory, Dr. Ian</item>
+<item>Groß, Dr. Nathalie</item>
+<item>Gueguen, Gretchen Mary</item>
+<item>Guertin, Dr. Carolyn</item>
+<item>Guiliano, Dr. Jennifer Elizabeth</item>
+<item>Hankins, Gabriel Anderson</item>
+<item>Hanlon, Ann</item>
+<item>Harbeson, Prof. Eric</item>
+<item>Harris, Dr. Katherine D.</item>
+<item>Hawkins, Kevin Scott</item>
+<item>Heath, Sebastian</item>
+<item>Hedges, Dr. Mark</item>
+<item>Heiden, Dr. Serge</item>
+<item>Heuvel, Dr. Charles van den</item>
+<item>Heyer, Prof. Gerhard</item>
+<item>Hill, Dr. Timothy</item>
+<item>Hirsch, Dr. Brett</item>
+<item>Hoffmann, Daniel</item>
+<item>Holmes, Martin</item>
+<item>Hoover, Prof. David L.</item>
+<item>Horton, Prof. Tom</item>
+<item>Hu, Dr. Xiao</item>
+<item>Hughes, Prof. Lorna</item>
+<item>Hui, Dr. Barbara</item>
+<item>Huitfeldt, Claus</item>
+<item>Hunyadi, Prof. László</item>
+<item>Inaba, Prof. Mitsuyuki</item>
+<item>Isaksen, Dr. Leif</item>
+<item>Ivanovs, Prof. Aleksandrs</item>
+<item>Jannidis, Fotis</item>
+<item>Jewell, Dr. Andrew Wade</item>
+<item>Johnsen, Dr. Lars</item>
+<item>Johnson, Eric D. M.</item>
+<item>Johnson, Dr. Ian R.</item>
+<item>Johnston, Kelly Gene</item>
+<item>Jones, Prof. Jason B.</item>
+<item>Jones, Prof. Steven Edward</item>
+<item>Juola, Prof. Patrick</item>
+<item>Kaislaniemi, Samuli</item>
+<item>Kansa, Dr. Eric Christopher</item>
+<item>Keating, Dr. John Gerard</item>
+<item>Kelber, Nathan Patrick</item>
+<item>Kelleher, Prof. Margaret</item>
+<item>Keramidas, Dr. Kimon</item>
+<item>Kermanidis, Dr. Katia Lida</item>
+<item>Khosmood, Foaad</item>
+<item>Kibbee, Prof. Douglas</item>
+<item>Kirschenbaum, Prof. Matthew</item>
+<item>Knight, Gareth</item>
+<item>Knox, Douglas</item>
+<item>Koh, Prof. Adeline</item>
+<item>Körner, Fabian</item>
+<item>Koster, Dr. Elwin</item>
+<item>Kowal, Kimberly</item>
+<item>kraus, Dr. Kari Michaele</item>
+<item>Krauwer, Steven</item>
+<item>Kretzschmar, Dr. William</item>
+<item>Krot, Michael Adam</item>
+<item>Kuemmel, Dr. Christoph</item>
+<item>Lana, Dr. Maurizio</item>
+<item>Lancaster, Dr. Lewis Rosser</item>
+<item>Lang, Dr. Anouk</item>
+<item>Lavagnino, Dr. John</item>
+<item>Lavrentiev, Dr. Alexei</item>
+<item>Lawless, Prof. Séamus</item>
+<item>Lawrence, Dr. Katharine Faith</item>
+<item>Ledezma, Prof. Domingo</item>
+<item>Lendvai, Dr. Piroska</item>
+<item>Leon, Dr. Sharon</item>
+<item>Lester, Dave</item>
+<item>Lindemann, Prof. Marilee</item>
+<item>Litta Modignani Picozzi, Dr. Eleonora</item>
+<item>Llewellyn, Clare</item>
+<item>Lombardini, Dr. Dianella</item>
+<item>Lorang, Dr. Elizabeth M.</item>
+<item>Losh, Elizabeth</item>
+<item>Lucic, Ana</item>
+<item>Lüngen, Dr. Harald</item>
+<item>Luyckx, Kim</item>
+<item>Lyman, Dr. Eugene W.</item>
+<item>Maeda, Prof. Akira</item>
+<item>Mahony, Simon</item>
+<item>Makinen, Dr. Martti</item>
+<item>Maly, Dr. Kurt</item>
+<item>Mandell, Prof. Laura C.</item>
+<item>Manovich, Prof. Lev</item>
+<item>Marino, Prof. Mark Christopher</item>
+<item>Martin, Prof. Worthy N.</item>
+<item>Martín Arista, Dr. Javier</item>
+<item>McCarty, Prof. Willard</item>
+<item>McDaniel, Dr. Rudy</item>
+<item>McDonald, Prof. Jarom Lyle</item>
+<item>McPherson, Tara</item>
+<item>Meece, Stephanie</item>
+<item>Meeks, Elijah</item>
+<item>Meister, Prof. Jan Christoph</item>
+<item>Meschini, Federico</item>
+<item>Miles, Adrian</item>
+<item>Mimno, Dr. David</item>
+<item>Miyake, Dr. Maki</item>
+<item>Monteiro Vieira, Jose Miguel</item>
+<item>Morrison, Prof. Aimée</item>
+<item>Mostern, Dr. Ruth</item>
+<item>Moulin, Prof. Claudine</item>
+<item>Moulthrop, Prof. Stuart</item>
+<item>Mueller, Prof. Martin</item>
+<item>Muller, Prof. A. Charles</item>
+<item>Muñoz, Trevor</item>
+<item>Munson, Matthew Aaron</item>
+<item>Muralidharan, Aditi</item>
+<item>Murphy, Dr. Orla</item>
+<item>Mylonas, Elli</item>
+<item>Nagasaki, Kiyonori</item>
+<item>Nelson, Prof. Brent</item>
+<item>Nelson, Dr. Robert K.</item>
+<item>Nerbonne, Prof. John</item>
+<item>Newton, Greg T.</item>
+<item>Nieves, Dr. Angel David</item>
+<item>Norrish, Jamie</item>
+<item>Nowviskie, Dr. Bethany</item>
+<item>Nyhan, Dr. Julianne</item>
+<item>O'Donnell, Prof. Daniel Paul</item>
+<item>Ohya, Prof. Kazushi</item>
+<item>Olsen, Prof. Mark</item>
+<item>Opas-Hänninen, Prof. Lisa Lena</item>
+<item>Ore, Dr. Christian-Emil</item>
+<item>Ore, Espen S.</item>
+<item>Organisciak, Peter</item>
+<item>Paolillo, Prof. John</item>
+<item>Pasanek, Brad</item>
+<item>Perdue, Susan Holbrook</item>
+<item>Perez Isasi, Dr. Santiago</item>
+<item>Pierazzo, Dr. Elena</item>
+<item>Piez, Dr. Wendell</item>
+<item>Pitti, Daniel</item>
+<item>Porter, Dorothy Carr</item>
+<item>Posner, Dr. Miriam</item>
+<item>Potvin, Sarah</item>
+<item>Prescott, Prof. Andrew John</item>
+<item>Priani, Dr. Ernesto</item>
+<item>Puschmann, Dr. Cornelius</item>
+<item>Pytlik Zillig, Prof. Brian L.</item>
+<item>Rahtz, Sebastian</item>
+<item>Ramsay, Dr. Stephen</item>
+<item>Rapp, Prof. Andrea</item>
+<item>Redwine, Gabriela Gray</item>
+<item>Rehbein, Prof. Malte</item>
+<item>Rehberger, Prof. Dean</item>
+<item>Rehm, Dr. Georg</item>
+<item>Renear, Prof. Allen H.</item>
+<item>Reside, Dr. Doug</item>
+<item>Rhody, Dr. Jason</item>
+<item>Riddell, Allen Beye</item>
+<item>Ridge, Mia</item>
+<item>Ridolfo, Dr. Jim</item>
+<item>Robey, Prof. David</item>
+<item>Robinson, Prof. Peter</item>
+<item>Rochester, Dr. Eric</item>
+<item>Rockwell, Prof. Geoffrey</item>
+<item>Rodríguez, Dr. Nuria</item>
+<item>Roe, Dr. Glenn H.</item>
+<item>Roeder, Torsten</item>
+<item>Rohrbach, Prof. Augusta</item>
+<item>Romanello, Matteo</item>
+<item>Romary, Laurent</item>
+<item>Roorda, Dr. Dirk</item>
+<item>Rosner, Prof. Lisa</item>
+<item>Ross, Claire Stephanie</item>
+<item>Roueché, Prof. Charlotte</item>
+<item>Roued-Cunliffe, Henriette</item>
+<item>Rudman, Prof. Joseph</item>
+<item>Ruecker, Dr. Stan</item>
+<item>Ruotolo, Christine</item>
+<item>Russo, Dr. Angelina</item>
+<item>Rybicki, Dr. Jan</item>
+<item>Sahle, Patrick</item>
+<item>Saklofske, Dr. Jon</item>
+<item>Salciute-Civiliene, Gabriele</item>
+<item>Sample, Prof. Mark</item>
+<item>Sanderson, Dr. Robert</item>
+<item>Sayers, Dr. Jentery</item>
+<item>Schaßan, Torsten</item>
+<item>Scheinfeldt, Dr. Joseph Thomas</item>
+<item>Schlitz, Dr. Stephanie</item>
+<item>Schmidt, Dr. Desmond</item>
+<item>Schmidt, Harry</item>
+<item>Schmidt, Sara A.</item>
+<item>Schöch, Dr. Christof</item>
+<item>Schreibman, Prof. Susan</item>
+<item>Schubert, Prof. Charlotte</item>
+<item>Scifleet, Dr. Paul Anthony</item>
+<item>Seppänen, Prof. Tapio</item>
+<item>Sewell, David Robert</item>
+<item>Shaw, Dr. Ryan Benjamin</item>
+<item>Shaw, William Stewart</item>
+<item>Shep, Dr. Sydney</item>
+<item>Shimoda, Prof. Masahiro</item>
+<item>Short, Prof. Harold</item>
+<item>Siemens, Dr. Lynne</item>
+<item>Siemens, Prof. Raymond George</item>
+<item>Simons, Prof. Gary F.</item>
+<item>Sinclair, Prof. Stéfan</item>
+<item>Singer, Prof. Kate</item>
+<item>Smith, Prof. Martha Nell</item>
+<item>Smithies, Dr. James Dakin</item>
+<item>Snyder, Dr. Lisa M.</item>
+<item>Sokól, Dr. Malgorzata</item>
+<item>Spence, Paul Joseph</item>
+<item>Sperberg-McQueen, Dr. Michael</item>
+<item>Spiro, Dr. Lisa</item>
+<item>Steggle, Prof. Matthew</item>
+<item>Sternfeld, Dr. Joshua</item>
+<item>Stokes, Dr. Peter Anthony</item>
+<item>Sukovic, Dr. Suzana</item>
+<item>Sula, Dr. Chris Alen</item>
+<item>Suzuki, Dr. Takafumi</item>
+<item>Swanstrom, Dr. Elizabeth Anne</item>
+<item>Tabata, Prof. Tomoji</item>
+<item>Tanner, Simon</item>
+<item>Tasovac, Toma</item>
+<item>Teehan, Aja</item>
+<item>Teich, Prof. Elke</item>
+<item>Terras, Dr. Melissa</item>
+<item>Thaller, Prof. Manfred</item>
+<item>Thawonmas, Prof. Ruck</item>
+<item>Theibault, Dr. John Christopher</item>
+<item>Todirascu, Amalia</item>
+<item>Tomasek, Dr. Kathryn</item>
+<item>Tomić, Marijana</item>
+<item>Tonra, Dr. Justin Emmet</item>
+<item>Travis, Dr. Charles Bartlett</item>
+<item>Trettien, Whitney</item>
+<item>Trippel, Dr. Thorsten</item>
+<item>Tupman, Dr. Charlotte</item>
+<item>Underwood, Prof. Ted</item>
+<item>Unsworth, John</item>
+<item>Valverde Mateos, Dr. Ana</item>
+<item>van Dalen-Oskam, Prof. Karina</item>
+<item>Van den Branden, Ron</item>
+<item>van den Herik, Prof. H. J.</item>
+<item>Van Elsacker, Bert</item>
+<item>van Erp, Dr. Marieke</item>
+<item>van Hooland, Prof. Seth</item>
+<item>Van Zundert, Joris Job</item>
+<item>Varner, Dr. Robert Stewart</item>
+<item>Venecek, John T.</item>
+<item>Verdu Ruiz, Silvia</item>
+<item>Verhoeven, Prof. Deb</item>
+<item>Vertan, Dr. Cristina</item>
+<item>Vetch, Paul</item>
+<item>Viglianti, Raffaele</item>
+<item>Visconti, Amanda</item>
+<item>Walsh, Prof. John</item>
+<item>Walter, Katherine L.</item>
+<item>Warwick, Prof. Claire</item>
+<item>Watrall, Dr. Ethan</item>
+<item>Weidman, Robert William</item>
+<item>Weingart, Scott</item>
+<item>Welger-Barboza, Prof. Corinne</item>
+<item>Wernimont, Prof. Jacqueline D.</item>
+<item>Wheeles, Dana</item>
+<item>Wiesner, Dr. Susan L.</item>
+<item>Wilkens, Prof. Matthew</item>
+<item>Willett, Perry</item>
+<item>Williams, Dr. George H.</item>
+<item>Winder, Dr. William</item>
+<item>Witt, Dr. Andreas</item>
+<item>Wittern, Prof. Christian</item>
+<item>Wolff, Dr. Mark</item>
+<item>Worthey, Glen</item>
+<item>Wulfman, Dr. Clifford Edward</item>
+<item>Wynne, Martin</item>
+<item>Zafrin, Dr. Vika</item>
+<item>Zeldenrust, Douwe</item>
+<item>Zimmerman, Matthew</item>
+<item>Zöllner-Weber, Dr. Amélie</item>
+</list>
+                
+</div>
+
+</body>
+
+<back>
+<div type="References">
+<listBibl>
+<bibl>
+</bibl>
+
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>
+

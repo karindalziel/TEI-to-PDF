@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://jetson.unl.edu/cdrh/schemas/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" xml:id="workshops-002">
+
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Fast-Tracking a research database using Heurist</title>
+<author>
+<name>
+ <surname>Johnson</surname>, <forename>Ian</forename>
+</name>
+<affiliation>Director, Arts eResearch, University of Sydney</affiliation>
+<email></email>
+</author>
+</titleStmt>
+
+<publicationStmt>
+<authority></authority>
+<publisher>University of Nebraska-Lincoln</publisher>
+<distributor>
+<name>Center for Digital Research in the Humanities</name>
+<address>
+<addrLine>319 Love Library</addrLine>
+<addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+<addrLine>cdrh@unl.edu</addrLine>
+</address>
+</distributor>
+<pubPlace>Lincoln, Nebraska</pubPlace> 
+<address>
+<addrLine>University of Nebraska-Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+<availability>
+<p></p>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<p>No source: created in electronic format.</p>
+<p>
+<date when="20130715"></date>
+<time when="08:00:00"></time>
+</p>
+<p n="session">Workshop</p>
+</sourceDesc>
+</fileDesc>
+
+<profileDesc>
+<textClass>
+<keywords scheme="original" n="category">
+<term>Workshops</term>
+</keywords>
+</textClass>
+</profileDesc>
+
+<revisionDesc>
+<change>
+<date when="2013-05-28"></date>
+<name>Erin Pedigo</name>
+<desc>Initial encoding</desc>
+</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="paper">
+<body>
+<div>
+
+    <p>In this workshop participants will learn how to build a Heurist online database to support a small research project, and end up with a fully operational, web-accessible, private or shared database on a hosted server. From this they will be able to freely create additional databases and/or download the Open Source software for installation on an institutional or cloud-based server. No programming or technical skills are required to complete the workshop.</p>
+    <p>Heurist is a database abstraction which hides the complexity of database design behind a simple web interface, allowing researchers to rapidly define quite complex databases through a researcher-oriented interface without the need for programming. Heurist has been developed across a number of Australian Research Council research grants in the Humanities to support a wide range of research, from the production of large historical encyclopaedias with an editorial team, such as the Dictionary of Sydney (<ref type="url" target="http://dictionaryofsydney.org">dictionaryofsydney.org</ref>), through archaeological survey and excavation databases to individual text markup projects. We use it internally for project management and task tracking as well as for image collection and PDF document management.</p>
+    <p>New databases can be set up on a web service within minutes, using templates developed by other Humanities projects. From the start these can include rich interlinking of records, spatial and temporal data, text markup and annotation. Heurist allows incremental development of the database structure as a project develops, without altering data which is already in the system. This allows fast-tracking of database setup because one can start with a few categories and work up to a more complex design, rather than having to do complete planning at the start which locks in a design and creates limitations or additional costs as projects evolve. Heurist is unique in allowing the import of existing record structures from any other Heurist database registered with a central index. We are actively building a number of 'community servers' which provide structural templates for different disciplines. These templates promote good database design and common standards without being prescriptive.</p>
+    <p>Heurist is being incorporated into two national research infrastructure projects. It will provide database-on-demand services on the NeCTAR Research Cloud for HuNI (Humanities Networked Infrastructure), allowing user-generated databases to expose their content to the HuNI Virtual Laboratory search, web linking and annotation services and to Research Data Australia, the national index of research databases. For FAIMS (Federated Archaeological Information Management System) it will provide a schema repository and data ingest from field data collection devices (Android tablets, GPS, cameras etc.), data refinement, data  analysis/visualisation, web publishing and repository output services.</p>
+    <p>The workshop will be relevant to a wide range of Humanities researchers, but particularly to scholars who deal with collections of richly interlinked heterogeneous entities. These may include historical individuals, organisations and events, inscriptions, manuscripts and archival records, theatrical performances, places, buildings, artefacts, images and bibliographic information. It will be particularly relevant to scholars who do not have good institutional backing for eResearch tools and database development.</p>
+    <p>By the end of the workshop participants will be confident to use the web interface to create new databases online, import templates, make changes to database structure, edit and import data, search for and save subsets of the data, map, export and transform data, and publish data feeds within a website.</p>
+    <p>Ian Johnson’s research interests focus on methodologies for managing and publishing research data and the application of GIS and mobile devices in archaeological field research. He has developed a number of eResearch tools including the Minark database for archaeologists (1980-1987), TimeMap web mapping application (1995–2003), The Electronic Cultural Atlas Initiative data clearinghouse (1998–2003), FieldHelper (2004–2007) and Heurist (2005–present).</p>
+</div>
+
+<div>
+<head>Target audience</head>
+
+    <p>Scholars who deal with collections of richly interlinked heterogeneous entities, particularly those who have limited access to institutional eResearch support, but also Digital Humanists who need to provide eResearch support to other scholars. I can handle up to around 20 people.</p>
+</div>
+
+<div>
+<head>URL</head>
+
+<p><ref type="url" target="http://HeuristScholar.org/h3/index.html">HeuristScholar.org/h3/index.html</ref></p>
+</div>
+
+</body>
+</text>
+</TEI>
+

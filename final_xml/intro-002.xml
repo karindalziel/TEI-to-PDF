@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://jetson.unl.edu/cdrh/schemas/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" xml:id="intro-002">
+
+<teiHeader>
+<fileDesc>
+<titleStmt>
+    <title type="nodisplay">Logo Page</title>
+
+</titleStmt>
+<publicationStmt>
+<authority></authority>
+<publisher>University of Nebraska-Lincoln</publisher>
+<distributor>
+<name>Center for Digital Research in the Humanities</name>
+<address>
+<addrLine>319 Love Library</addrLine>
+<addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+<addrLine>cdrh@unl.edu</addrLine>
+</address>
+</distributor>
+<pubPlace>Lincoln, Nebraska</pubPlace> 
+<address>
+<addrLine>University of Nebraska-Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+<availability>
+<p></p>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<p>No source: created in electronic format.</p>
+</sourceDesc>
+</fileDesc>
+
+<profileDesc>
+<textClass>
+<keywords scheme="original" n="category">
+<term>Intro</term>
+</keywords>
+<keywords scheme="original" n="subcategory">
+<term>Short Paper</term>
+</keywords>
+<keywords scheme="original" n="topic">
+<term></term>
+</keywords>
+<keywords scheme="original" n="keywords">
+<term></term>
+</keywords>
+</textClass>
+</profileDesc>
+
+<revisionDesc>
+<change>
+<date/>
+<name/>
+<desc/>
+</change>
+</revisionDesc>
+</teiHeader>
+
+    <text type="paper" n="single">
+<body>
+<div n="publisher_info">
+    <!--<figure>
+        <graphic url="logo"/>
+    </figure>-->
+    
+    <p n="intro_text">Primary Encoder: Laura Weakly<lb/>
+        Designer: Karin Dalziel<lb/>
+        Encoders and Proofreaders:<lb/>
+        &#160;&#160;&#160;&#160;&#160;Matt Bosley<lb/>
+        &#160;&#160;&#160;&#160;&#160;Matthew Lavin<lb/>
+        &#160;&#160;&#160;&#160;&#160;Elizabeth Lorang<lb/>
+        &#160;&#160;&#160;&#160;&#160;Keith Nickum<lb/>
+        &#160;&#160;&#160;&#160;&#160;Erin Pedigo<lb/>
+        &#160;&#160;&#160;&#160;&#160;Hannah Vahle<lb/>
+        Illustration: University of Nebraska–Lincoln Communications<lb/><lb/>
+        Available online at: http://dh2013.unl.edu<lb/></p>
+    <p>&#160;</p>
+    <p n="intro_text"><seg n="ISBN">ISBN GOES HERE (controlled in xsl for ebook and print versions</seg><lb/>
+        Published by the Center for Digital Research in the Humanities</p>
+        
+    
+                
+</div>
+
+</body>
+
+
+</text>
+</TEI>
+

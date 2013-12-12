@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?oxygen RNGSchema="http://jetson.unl.edu/cdrh/schemas/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PosterDemo-296">
+    
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Expanding the Interpretive and Analytical Possibilities for Understanding Slavery and Emancipation in Washington, DC</title>
+<author>
+<name><surname>Cayer</surname>, <forename>Janel</forename></name>
+<affiliation>University of Nebraska-Lincoln, United States of America</affiliation>
+<email>jcayerdo@gmail.com</email>
+</author>
+<author>
+<name><surname>McMullen</surname>, <forename>Kevin</forename></name>
+<affiliation>University of Nebraska-Lincoln, United States of America</affiliation>
+<email>mcmullen.kevinm@gmail.com</email>
+</author>
+</titleStmt>
+            
+<publicationStmt>
+<authority></authority>
+<publisher>University of Nebraska-Lincoln</publisher>
+<distributor>
+<name>Center for Digital Research in the Humanities</name>
+<address>
+<addrLine>319 Love Library</addrLine>
+<addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+<addrLine>cdrh@unlnotes.unl.edu</addrLine>
+</address>
+</distributor>
+<pubPlace>Lincoln, Nebraska</pubPlace> 
+<address>
+<addrLine>University of Nebraska-Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+<availability>
+<p></p>
+</availability>
+</publicationStmt>
+            
+<notesStmt><note type="abstract">Petitions seeking compensation for slaves emancipated in Washington, DC have been the focus of our recent work for the digital thematic research collection, Civil War Washington (CWW). This poster presentation summarizes the digitization process that brought the petitions to CWW (microfilm digitization, transcription and TEI markup, XSLT transformation, and SOLR search/indexing) and, more importantly, it demonstrates the compelling work yet to be done with the petitions; specifically, the poster will present a case study of what enriched encoding of the petitions &#8212; including encoding of monetary values and person roles &#8212; contributes to historical scholarship and to the broader understanding of these documents.</note></notesStmt>
+            
+<sourceDesc>
+<p>No source: created in electronic format.</p>
+</sourceDesc>
+</fileDesc>
+        
+<profileDesc>
+<textClass>
+<keywords scheme="original" n="category">
+<term>Poster</term>
+</keywords>
+<keywords scheme="original" n="subcategory">
+<term></term>
+</keywords>
+<keywords scheme="original" n="keywords">
+<term>TEI</term>
+<term>digital thematic research collections</term>
+<term>nineteenth-century American history</term>
+<term>XSLT</term>
+</keywords>
+<keywords scheme="original" n="topic">
+<term>encoding &#8212; theory and practice</term>
+<term>historical studies</term>
+<term>xml</term>
+                 
+</keywords>
+</textClass>
+</profileDesc>
+        
+<revisionDesc>
+<change>
+<date when="2013-03-29"></date>
+<name>Erin Pedigo</name>
+<desc>Initial encoding</desc>
+</change>
+</revisionDesc>
+</teiHeader>
+    
+<text type="poster">
+<body>
+<div>
+
+    <p>In 1862 the United States' Congress passed two bills which legislated the liberation of slaves in the District of Columbia, making Washington, DC the first emancipated city in the nation. The inaugural act, passed on April 16, called for the compensated emancipation of all persons "held to service or labor" in the District. Provisions of the April act required slave owners to submit written petitions to receive compensation. The second, supplemental act of July 12 allowed slaves who were freed under the April act to file for certificates of freedom on their own behalf if their former masters had not petitioned for compensation. Offering valuable descriptions about the lives of former slaves, the documents filed pursuant to these acts have been the focus of our recent work to examine race, slavery, and emancipation for the digital thematic research collection, <hi rend="italic">Civil War Washington</hi> (<ref type="url" target="http://civilwardc.org">civilwardc.org</ref>; <hi rend="italic">CWW</hi>). This poster presentation will summarize the digitization process that brought the petitions to <hi rend="italic">CWW</hi> (microfilm digitization, transcription and TEI markup, XSLT transformation, and SOLR search/indexing) and, more importantly, it will demonstrate the compelling work yet to be done with the petitions; specifically, the poster will present a case study of what enriched encoding of the petitions &#8212; including encoding of monetary values and person roles &#8212; contributes to historical scholarship and to the broader understanding of these documents.</p>
+    <p>In preparing the petitions for publication, the project team was guided by our scholarly understanding of these documents as well as our desire to make them broadly available to students, scholars, and the general public as soon as possible. Our TEI markup distinguishes between handwritten and printed content, identifies personal and place names, records values for dates, notes instances where petition forms have been left blank, and acknowledges illegible words and characters in the text. In developing our encoding practices, we took a pragmatic approach, balancing the urge to encode all complexities that make the petitions such significant documents, with the utility of presenting complete transcriptions of heretofore largely inaccessible texts. However, a longer term project goal is the addition of more detailed encoding. Therefore, working with a subset of files, we have expanded the encoding as described below. Our poster explains and illustrates this expanded encoding and showcases what such additional encoding enables for both the visual presentation and the computer-assisted analysis of the documents.</p>
+    <p>The April act required petitioners to declare the monetary value of their claim and provide a justification for this valuation. A special board of commissioners was established to determine how much remuneration slaveholders would receive. The board's decisions are documented in their <hi rend="italic">Final Report on Compensated Emancipation in the District of Columbia</hi> (1864). Encoding these monetary values allows us to compare these amounts and enables readers to see the results of the petition in this financial sense: what did a petitioner claim and what did he receive? Similarly, by performing calculations with the encoded figures, we can provide users of the site with the monetary equivalent of each award in today’s dollars. These calculations are performed in the XSLT stylesheet used for transforming the TEI files into HTML. Additionally, this encoding, when taken alongside further encoding of details about each slave, enables drawing correlations between the value assigned to each slave and other features. To be sure, we recognize the complex set of problems raised by highlighting the monetary value of people claimed as property. Our intention is to bring this sensitive issue to the forefront in order to encourage discussion and analysis of the complicated calculus at work in the texts and in American history. We mean for our treatment of the financial aspects of these materials to be thought-provoking, not cold and quantitative.</p>
+    <p>We have also expanded the encoding of the participant description in the TEI header to include a regularized version of the name of every person who appears in a petition. Our long-term goal is to connect every instance of person names to records in the project database. The expansion of the participant description is an intermediate step toward standardizing person names across and within petitions and making people/social connections across documents. The enriched encoding we have implemented here enhances the interpretive and analytical possibilities for understanding slavery and emancipation in Washington. We encourage others to download our TEI files and add encoding that is relevant to their own research interests. Our poster presentation illustrates some of the possibilities that micro-level encoding offers for the study of complex historical documents.</p>
+</div>
+
+</body>
+</text>
+</TEI>

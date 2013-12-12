@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://jetson.unl.edu/cdrh/schemas/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" xml:id="workshops-001">
+
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Taking modeling seriously: A hands-on approach to Alloy</title>
+<author>
+<name>
+<surname>Sperberg-McQueen</surname>,<forename>C. M.</forename>
+</name>
+<affiliation>Information-technology consultant, Black Mesa Technologies, LLC</affiliation>
+<email>cmsmcq@blackmesatech.com</email>
+</author>
+</titleStmt>
+
+<publicationStmt>
+<authority></authority>
+<publisher>University of Nebraska-Lincoln</publisher>
+<distributor>
+<name>Center for Digital Research in the Humanities</name>
+<address>
+<addrLine>319 Love Library</addrLine>
+<addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+<addrLine>cdrh@unl.edu</addrLine>
+</address>
+</distributor>
+<pubPlace>Lincoln, Nebraska</pubPlace> 
+<address>
+<addrLine>University of Nebraska-Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+<availability>
+<p></p>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<p>No source: created in electronic format.</p>
+<p>
+<date when="20130715"></date>
+<time when="08:00:00"></time>
+</p>
+<p n="session">Workshop</p>
+</sourceDesc>
+</fileDesc>
+
+<profileDesc>
+<textClass>
+<keywords scheme="original" n="category">
+<term>Workshops</term>
+</keywords>
+</textClass>
+</profileDesc>
+    
+<revisionDesc>
+<change>
+<date when="2013-05-28"></date>
+<name>Erin Pedigo</name>
+<desc>Initial encoding</desc>
+</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="paper">
+<body>
+<div>
+    
+ <head>Description</head>
+
+    <p>The modeling of humanities data is a core activity (some say <hi rend="italic">the</hi> core activity) of the digital
+humanities. The activity so described may take a wide variety of forms; often the term is used for any
+compact description of a domain, whether in prose or in user-interface metaphors. Machine-processable
+descriptions are probably more common, but these, too, vary: the definition of an XML vocabulary, the
+table declarations for a SQL database, the data structures or even the executable code of a program may
+all be described informally as offering a ‘model’ of some domain or other.</p>
+    <p>The term <hi rend="italic">model</hi>, however, is here applied more narrowly to expressions in some well defined
+formalization. Models are most useful when formalized in a declarative not a procedural notation and
+when their logical import is clear. Formulating precise models can be difficult. Inconsistencies and
+unforeseen interferences between parts of the model can easily creep in. With informal definitions, such
+shortcomings can remain undetected for long periods, even until after the model has been put to use.
+Formally defined models, on the other hand, can be tested systematically for logical consistency; their
+consequences can be established systematically. Such testing can help uncover shortcomings in a
+timely manner.</p>
+    <p>Alloy is a tool for “lightweight formal methods”, which makes it easier to test the implications of
+models and to check assumptions for plausibility, consistency, and completeness. Its usual application
+area is the testing of software designs but the variant of first-order logic provided by Alloy is by no
+means limited to the description of software or electronic objects. It has been successfully used to
+formalize notions far removed from any software, including the nature of transcription, an application
+of the type/token distinction to document structure, and fragments of Goodman and Nelson's
+mereology and of Hilbert's formulation of Euclidean geometry. Alloy's logic is powerful enough to
+formulate interesting concepts, while remaining weak enough to be tractable for machine processing.
+Using Alloy's syntax, a modeler can formulate the axioms of a model and augment them by asserting
+that certain properties hold for all instances of the model, or by defining predicates which characterize
+particular instances of the model. The Alloy Analyzer can test the assertions and illustrate the
+predicates, by seeking counter-examples to the assertion or instances of the predicate.</p>
+    <p>This one-day tutorial introduces digital humanists to the use of Alloy for modeling. Topics include:
+
+    <list type="unordered">
+        <item>introduction to Alloy's logic</item>
+
+        <item>compressed summary of Alloy syntax</item>
+
+        <item>use of Alloy for formulating assertions and predicates</item>
+
+        <item>describing individual test cases for Alloy</item>
+
+        <item>Alloy's place in the larger context and Alloy's relation to light-weight formal methods, to other
+            formal methods (e.g. Z), and to theorem-provers</item>
+
+        <item>limits on Alloy's logic, from a theoretical point of view (how Alloy and other tools deal with
+            Goedel's incompleteness result and Turing's halting problem), and from a practical point of
+            view (modeling recursion using transitive closure)</item></list></p>
+
+    <p>Examples will be drawn from domains discussed at recent DH conferences.</p>
+    <p>Prerequisites: some prior exposure to symbolic logic and/or programming is probably desirable; failing
+        that, highly motivated participants may be able to benefit from the workshop if they have sufficiently
+        high tolerance for exposure to new material.</p>
+    <p>Participants should bring a laptop computer with a current installation of Java; they may optionally preinstall
+        Alloy 4.2 or they may install it during the workshop.</p>
+</div>
+
+<div>
+<head>Target audience and expected number of participants</head>
+
+    <p>Short answer: not a large target audience (but a choice one!); estimated attendance perhaps 5-10 (no
+        evidence).</p>
+    <p>The target audience consists of digital humanists interested in techniques for formalizing important concepts and tools for working with such formalizations. The tutorial deals with high level data modeling concepts. Some prior exposure to symbolic logic and/or programming is desirable; failing that, highly motivated participants may be able to benefit from the workshop if they have sufficiently high tolerance for exposure to new material. Participants should bring a laptop computer with a current installation of Java; they may optionally pre- install Alloy 4.2 or they may install it during the workshop.</p>
+</div>
+
+<div>
+<head>Outline</head>
+
+<head type="sub">Full-day outline</head>
+    
+    <p>I'd prefer to teach this as a full-day tutorial; that allows time for a mixture of lecture-style presentation
+        of information and hands-on exercises. A tentative full-day schedule is:</p>
+</div>
+
+<div>
+<head type="sub">9:00-10:30 Introduction to the course</head>
+
+<list type="unordered">
+
+    <item>Modeling, formal logic, formal methods. Lightweight formal methods; Alloy.</item>
+
+    <item>Demonstration: Alloy model of a Web interface (capabilities, security issues, user information).</item>
+
+    <item>Demonstration: Using Alloy to generate test cases.</item>
+
+    <item>The small-scope hypothesis; how Alloy manages to be useful despite Goedel's Theorem.</item>
+
+    <item>Hands-on exercise: Using the Alloy Analyzer.</item></list>
+</div>
+
+<div>
+<head type="sub">10:30-11:00 Break</head>
+</div>
+
+<div>
+<head type="sub">11:00-12:30 Alloy's first-order logic</head>
+
+    <list type="unordered">
+
+    <item>Atoms, relations, tuples, sets. Basics of syntax: signatures, relations, multiplicities.</item>
+    
+    <item>Hands-on exercise(s) (logic puzzles, simple proofs from logic textbooks).</item>
+    
+    <item>Styles of expression: predicate-calculus style, navigational style, relational style. More syntax:
+        assertions, predicates, quantification, let-expressions.</item>
+    
+    <item>Using Alloy to model concepts: FRBR entities, metadata records, XML and non-XML document
+        structures.</item>
+    
+    <item>More exercises(s).</item></list>
+</div>
+
+<div>
+<head type="sub">12:30-2:00 Lunch</head>
+</div>
+
+<div>
+<head type="sub">2:00-3:30 Alloy as a tool for software design</head>
+
+    <list type="unordered">
+        
+        <item>Examples: using Alloy to model an interactive concordance system, a query interface, a database
+            system.</item>
+        
+        <item>Hands-on exercises.</item>
+        
+        <item>Idioms for modeling state, change, and dynamic systems in Alloy.</item>
+        
+        <item>Idioms for testing specific instances with Alloy.</item></list>
+</div>
+
+<div>
+<head type="sub">3:30-4:00 Break</head>
+</div>
+
+<div>
+<head type="sub">4:00-5:30 Recursion, Conclusion</head>
+
+    <list type="unordered">
+        
+        <item>Using transitive closure to model recursion.</item>
+        
+        <item>Hands-on exercises.</item>
+        
+        <item>Review, questions, clarifications.</item>
+        
+        <item>Where to go from here? Further Alloy resources, other tools for formal methods and theorem
+            proving.</item></list>
+</div>
+<!--
+<div>
+    <head type="sub"><hi rend="bold">Half-day outline</hi></head>
+
+    <p>If it's necessary to teach this as a half-day tutorial, I will have to require that participants work through
+an introductory tutorial on Alloy before the course, in order to be able to go at once into DH-specific
+applications of Alloy. In principle, this will be fine; in practice, some portion of the participants will
+either not have understood the tutorial fully or will not have looked at it at all, so they will either have
+to ask questions that slow down the group as a whole, or they will not understand what's going on well
+enough to participate actively, so they will become observers of a tutorial, rather than participants.</p>
+    <p>A tentative half-day schedule is:</p>
+</div>
+
+<div>
+<head type="sub"><hi rend="bold">Session 1 (90 minutes)</hi></head>
+
+
+    <list type="unordered">
+        
+        <item>Introduction to the course.</item>
+        
+        <item>Review: Modeling, formal logic, formal methods. Lightweight formal methods; Alloy. The smallscope
+            hypothesis. Bumper-sticker summary of Alloy syntax.</item>
+        
+        <item>Hands-on exercise(s) (logic puzzles, simple proofs from logic textbooks).</item>
+        
+        <item>Using Alloy to model concepts: FRBR entities, metadata records, XML and non-XML document
+            structures.</item>
+        
+        <item>More exercises(s).</item></list>
+</div>
+
+<div>
+    <head type="sub"><hi rend="bold">Session 2 (90 minutes)</hi></head>
+
+    <list type="unordered">
+        
+        <item>Alloy as a tool for software design. Examples: using Alloy to model an interactive concordance
+            system, a query interface, a database system.</item>
+        
+        <item>Hands-on exercises.</item>
+        
+        <item>Idioms for modeling state, change, and dynamic systems in Alloy. Testing specific instances with
+            Alloy. Getting around the lack of recursion by using transitive closure.</item>
+        
+        <item>Concluding words. Where to go from here? Further Alloy resources, other tools for formal methods
+            and theorem proving.</item></list>
+</div>
+
+-->
+</body>
+</text>
+</TEI>
+

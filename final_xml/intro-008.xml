@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://jetson.unl.edu/cdrh/schemas/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" xml:id="intro-008">
+
+<teiHeader>
+<fileDesc>
+<titleStmt>
+    <title>Obituary for Prof. Lisa Lena Opas-Hänninen</title>
+<!--<author>
+<name>
+    <surname>Nerbonne</surname>, 
+    <forename>John</forename>
+</name>
+<!-\-<affiliation>University</affiliation>-\->
+<email></email>
+</author>-->
+</titleStmt>
+<publicationStmt>
+<authority></authority>
+<publisher>University of Nebraska-Lincoln</publisher>
+<distributor>
+<name>Center for Digital Research in the Humanities</name>
+<address>
+<addrLine>319 Love Library</addrLine>
+<addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+<addrLine>cdrh@unl.edu</addrLine>
+</address>
+</distributor>
+<pubPlace>Lincoln, Nebraska</pubPlace> 
+<address>
+<addrLine>University of Nebraska-Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+<availability>
+<p></p>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<p>No source: created in electronic format.</p>
+</sourceDesc>
+</fileDesc>
+
+<profileDesc>
+<textClass>
+<keywords scheme="original" n="category">
+<term>Intro</term>
+</keywords>
+<keywords scheme="original" n="subcategory">
+<term></term>
+</keywords>
+<keywords scheme="original" n="topic">
+<term></term>
+</keywords>
+<keywords scheme="original" n="keywords">
+<term></term>
+</keywords>
+</textClass>
+</profileDesc>
+
+<revisionDesc>
+<change>
+<date/>
+<name/>
+<desc/>
+</change>
+</revisionDesc>
+</teiHeader>
+
+    <text type="paper" n="single">
+<body>
+    <div type="intro_material">
+ 
+
+    <p>Prof. Lisa Lena Opas-Hänninen of the University of Oulu and chair of the ALLC: The European Association for Digital Humanities, passed away in Helsinki on Feb. 2, 2013 after a long illness. She is survived by her husband, Prof. Heikki Hänninen of the University of Helsinki, and she will be remembered by generations of digital humanists.</p>
+
+    <p>Lisa Lena loved her work and her colleagues.  She traveled a great deal in order to stay in personal contact with others in, around and beyond our disciplines.  Conferences such DH 2013, which this book of proceedings describes, were her normal fields of activity, where she inevitably arrived early and stayed late, engaged everyone interested in new opportunities for international collaboration, attending innumerable meetings and talks, always with words of encouragement to younger scholars, with witty side remarks to those sitting nearby, and with invitations to discuss it all at more leisure over a drink later in the evening.  The invitations were delivered in a collegial, almost conspiratorial manner!  Those who accepted them were always delighted to find a good number of colleagues engaged in friendly banter and argument. 
+We shall miss her for her contributions, for her welcoming and encouraging way, and for the feeling she gave us that we were together part of a large and important movement.</p>
+
+    <p>&#8212; The present and past members of the executive committees of the (Alliance of) Digital Humanities Organizations.</p>
+                  
+</div>
+
+</body>
+
+
+</text>
+</TEI>
+

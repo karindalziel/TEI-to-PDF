@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://jetson.unl.edu/cdrh/schemas/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PosterDemo-190">
+
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Great Parchment Book project</title>
+
+<author>
+<name>
+<surname>Avery</surname>, <forename>Nicola</forename></name>
+<affiliation>London Metropolitan Archives, City of London Corporation, UK</affiliation>
+<email>Nicola.Avery@cityoflondon.gov.uk</email>
+</author>
+
+<author>
+<name>
+<surname>Campagnolo</surname>, <forename>Alberto</forename></name>
+<affiliation>Ligatus Research Centre, University of the Arts, London, UK</affiliation>
+<email>a.campagnolo1@arts.ac.uk </email>
+</author>
+
+<author>
+<name>
+<surname>De Stefani</surname>, <forename>Caroline</forename></name>
+<affiliation>London Metropolitan Archives, City of London Corporation, UK</affiliation>
+<email>Caroline.DeStefani@cityoflondon.gov.uk</email>
+</author>
+
+<author>
+<name>
+<surname>Pal</surname>, <forename>Kazim</forename></name>
+<affiliation>Department of Computer Science, University College London, UK</affiliation>
+<email>K.Pal@cs.ucl.ac.uk</email>
+</author>
+
+<author>
+<name>
+<surname>Payne</surname>, <forename>Matthew</forename></name>
+<affiliation>London Metropolitan Archives, City of London Corporation, UK</affiliation>
+<email>Matthew.Payne@westminster-abbey.org</email>
+</author>
+
+<author>
+<name>
+<surname>Smith</surname>, <forename>Philippa</forename></name>
+<affiliation>London Metropolitan Archives, City of London Corporation, UK</affiliation>
+<email>Philippa.Smith@cityoflondon.gov.uk</email>
+</author>
+
+<author>
+<name>
+<surname>Smither</surname>, <forename>Rachael</forename></name>
+<affiliation>London Metropolitan Archives, City of London Corporation, UK</affiliation>
+<email>rachaelsmither@gmail.com</email>
+</author>
+
+<author>
+<name>
+<surname>Stewart</surname>, <forename>Ann Marie</forename></name>
+<affiliation>London Metropolitan Archives, City of London Corporation, UK</affiliation>
+<email>ann.stewart@liverpoolmuseums.org.uk</email>
+</author>
+
+<author>
+<name>
+<surname>Stewart</surname>, <forename>Emma</forename></name>
+<affiliation>London Metropolitan Archives, City of London Corporation, UK</affiliation>
+<email>Emma.Stewart@cityoflondon.gov.uk</email>
+</author>
+
+<author>
+<name>
+<surname>Stewart</surname>, <forename>Patricia</forename></name>
+<affiliation>London Metropolitan Archives, City of London Corporation, UK</affiliation>
+<email>Patricia.Stewart@cityoflondon.gov.uk</email>
+</author>
+
+<author>
+<name>
+<surname>Terras</surname>, <forename>Melissa</forename></name>
+<affiliation>Centre for Digital Humanities and Department of Information Studies, University College
+London, UK</affiliation>
+<email>m.terras@ucl.ac.uk</email>
+</author>
+
+<author>
+<name>
+<surname>Ward</surname>, <forename>Laurence</forename></name>
+<affiliation>London Metropolitan Archives, City of London Corporation, UK</affiliation>
+<email>Laurence.Ward@cityoflondon.gov.uk</email>
+</author>
+
+<author>
+<name>
+<surname>Weyrich</surname>, <forename>Tim</forename></name>
+<affiliation>Department of Computer Science and Centre for Digital Humanities, University College
+London, UK</affiliation>
+<email>t.weyrich@ucl.ac.uk</email>
+</author>
+
+<author>
+<name>
+<surname>Yamada</surname>, <forename>Elizabeth</forename></name>
+<affiliation>London Metropolitan Archives, City of London Corporation, UK</affiliation>
+<email>lizandchihiro@hotmail.com</email>
+</author>
+
+
+</titleStmt>
+<publicationStmt>
+<authority/>
+<publisher>University of Nebraska-Lincoln</publisher>
+<distributor>
+<name>Center for Digital Research in the Humanities</name>
+<address>
+<addrLine>319 Love Library</addrLine>
+<addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+<addrLine>cdrh@unl.edu</addrLine>
+</address>
+</distributor>
+<pubPlace>Lincoln, Nebraska</pubPlace>
+<address>
+<addrLine>University of Nebraska-Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+<availability>
+<p/>
+</availability>
+</publicationStmt>
+
+<notesStmt>
+<note type="abstract">The Great Parchment Book of the Honourable The Irish Society is a survey,
+compiled in 1639 by a Commission instituted by Charles I, of all the estates in Derry, Northern
+Ireland. Damaged during a fire at London’s Guildhall in 1786, it has been unavailable to researchers
+for over 200 years. Traditional conservation alone could not produce sufficient results to make the
+manuscript accessible again. This poster presents the approach taken to flatten the parchment sheets
+as far as possible, to use multi-modal digital imaging to gain legibility and enable digital access,
+and to publish online the transcript and the images.</note>
+</notesStmt>
+
+<sourceDesc>
+<p>No source: created in electronic format.</p>
+</sourceDesc>
+</fileDesc>
+
+<profileDesc>
+<textClass>
+<keywords scheme="original" n="category">
+<term>Poster</term>
+</keywords>
+<keywords scheme="original" n="subcategory">
+<term></term>
+</keywords>
+
+<keywords scheme="original" n="keywords">
+<term>parchment</term>
+<term>survey</term>
+<term>digital imaging</term>
+<term>text encoding</term>
+<term>access</term>
+</keywords>
+
+<keywords scheme="original" n="topic">
+<term>encoding - theory and practice</term>
+<term>digitisation</term>
+<term>resource creation and discovery</term>
+<term>text generation</term>
+<term>other</term>
+<term>concording and indexing</term>
+<term>GLAM: galleries, libraries, archives, museums</term>
+</keywords>
+</textClass>
+</profileDesc>
+
+<revisionDesc>
+<change>
+<date when="2013-04-15"/>
+<name>Matthew Lavin</name>
+<desc>Initial encoding</desc>
+</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="poster">
+<body>
+<div>
+<div>
+<head>Project outline </head>
+<p>The Great Parchment Book of the Honourable The Irish Society is a major survey, compiled in 1639
+by a Commission instituted by Charles I, of all the estates in Derry, Northern Ireland, managed by
+the City of London through the Irish Society and the London livery companies. Damaged in a fire at
+London’s Guildhall in 1786, it has been unavailable to researchers for over 200 years (Moody 1939;
+Curl 2000). The damaged manuscript has however remained part of the City of London’s collections
+held at London Metropolitan Archives (LMA). As part of the commemoration of the 400th anniversary of
+the building of Derry’s city walls in 1613, it was decided to attempt to make the document available
+as a central point of the planned exhibition. The book represents an important source for the City’s
+role in the colonisation and administration of Ulster and, given the relative paucity of archival
+records for early modern Ireland, the manuscript should also reveal key data about landholding and
+population in 17th-century Ulster.</p>
+
+<p>This ambitious project has attracted support from several funders, including the UK’s National
+Manuscripts Conservation Trust, the Marc Fitch Fund, the Engineering and Physical Sciences Research
+Council (EPSRC), a number of London livery companies and the Irish Society itself. University
+College London (UCL), Derry Heritage and Museums Service (DHMS), and LMA have also provided funds
+and staff time. </p>
+</div>
+<div>
+<head>Physical description and conservation issues</head>
+<p>The manuscript consists of 165 separate parchment membranes, all damaged in the fire. Uneven
+shrinkage and distortion has rendered much of the text illegible. </p>
+<p>Traditional conservation alone would not produce sufficient results to make the manuscript
+accessible or suitable for exhibition, the parchment being too shrivelled to be returned to a
+readable state. Much of the text is visible but distorted; following discussions with conservation
+and imaging experts, it was decided to flatten the parchment sheets as far as possible, and to use
+multi-modal digital imaging to gain legibility and enable digital access. </p>
+</div>
+<div>
+<head>The project </head>
+<p>A partnership with the Department of Computer Science and the Centre for Digital Humanities at
+UCL established a four year EngD in the Virtual Environments, Imaging and Visualisation programme in
+September 2010 (jointly funded by the EPSRC and LMA) with the intention of developing software that
+will enable the manipulation (including virtual stretching and alignment) of digital images of the
+book rather than the object itself. The aim is to make the distorted text legible, and ideally to
+reconstitute the manuscript digitally. </p>
+<p>Conservation work on the membranes encompassed cleaning, humidification, and tension drying,
+using magnets placed on top of the parchment above a metal sheet to hold creases open during the
+drying process. This opened out areas of parchment where the camera could not reach the text (De
+Stefani 2012). </p>
+<p>The practical conservation of the membranes was the essential first step, followed by the imaging
+work being carried out by UCL, where a set of typically 50-60 22MP images is captured for each page
+and used to generate a 3D model containing 100-170MP, which allows viewing at archival resolution.
+These models can be flattened and browsed virtually, allowing the contents of the book to be
+accessed more easily and without further handling the document. A readable and exploitable version
+of the text is also being prepared, comprising a searchable transcription and glossary of the
+manuscript. This element of the project has received a grant from the Marc Fitch Fund towards the
+employment of a palaeographer who is also encoding appropriate terms using TEI to capture structural
+and semantic information about the texts enabling comprehensive searching of the document. </p>
+<p>The transcript and images of the document will be published online. We are currently working with
+web-designers Headscape to develop a website to enable sophisticated online presentation and
+searching of the document contents. </p>
+<p>From 2013, both DHMS and LMA plan to use the document in their interpretation and outreach
+programmes, developing resources for schools and colleges based on the information it contains.
+There is also considerable interest from academics, including the University of Ulster. Our work on
+the computational approach to model, stretch, and read the damaged parchment will be applicable to
+similarly damaged material as we believe we are developing best practice computational approaches to
+digitising highly distorted, fire-damaged, historical documents. </p>
+</div>
+<div>
+<head>Summary</head>
+<p>The digital imaging and transcription will provide a lasting resource for historians researching
+the Plantation of Ulster in local, national and international contexts. The progress of the project
+is being recorded on a blog (LMA 2012). </p>
+</div> 
+</div>
+</body>
+
+<back>
+<div type="References">
+<listBibl>
+<bibl><hi rend="bold">Curl, J. S.</hi> (2000). The Honourable the Irish Society and the Plantation of Ulster,
+1608-2000: the City of London and the colonisation of County Londonderry in the Province of Ulster
+in Ireland: a history and critique. Chichester, West Sussex: Phillimore. </bibl>
+
+<bibl><hi rend="bold">De Stefani, C.</hi> (2012).
+<hi rend="italic">Conservation of the Great Parchment Book. Presentation held at ARA Annual Conference 2012,</hi> Brighton
+August 29-31. </bibl>
+
+<bibl><hi rend="bold">London Metropolitan Archives</hi> (2012). The Great Parchment Book: Conserving, Digitally
+Reconstructing, Transcribing, and Publishing the Manuscript Known as the Great Parchment Book. 
+<ref type="url" target="http://greatparchmentbook.wordpress.com">http://greatparchmentbook.wordpress.com</ref> (accessed 1 November 2012).</bibl>
+
+<bibl><hi rend="bold">Moody, T. W.</hi> (1939). <hi rend="italic">The
+Londonderry Plantation, 1609-41: the City of London and the Plantation in Ulster.</hi> Belfast: W. Mullan and son.</bibl>
+
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>

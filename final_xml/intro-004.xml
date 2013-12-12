@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://jetson.unl.edu/cdrh/schemas/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" xml:id="intro-004">
+
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="nodisplay">Credits Page</title>
+</titleStmt>
+<publicationStmt>
+<authority></authority>
+<publisher>University of Nebraska-Lincoln</publisher>
+<distributor>
+<name>Center for Digital Research in the Humanities</name>
+<address>
+<addrLine>319 Love Library</addrLine>
+<addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+<addrLine>cdrh@unl.edu</addrLine>
+</address>
+</distributor>
+<pubPlace>Lincoln, Nebraska</pubPlace> 
+<address>
+<addrLine>University of Nebraska-Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+<availability>
+<p></p>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<p>No source: created in electronic format.</p>
+</sourceDesc>
+</fileDesc>
+
+<profileDesc>
+<textClass>
+<keywords scheme="original" n="category">
+<term>Intro</term>
+</keywords>
+<keywords scheme="original" n="subcategory">
+<term>Short Paper</term>
+</keywords>
+<keywords scheme="original" n="topic">
+<term></term>
+</keywords>
+<keywords scheme="original" n="keywords">
+<term></term>
+</keywords>
+</textClass>
+</profileDesc>
+
+<revisionDesc>
+<change>
+<date/>
+<name/>
+<desc/>
+</change>
+</revisionDesc>
+</teiHeader>
+
+    <text type="paper" n="double">
+<body>
+<div n="nobreak">
+    <head n="intro_head_small">International Program Committee</head>
+    <list n="intro">
+
+        <item>Bethany Nowviskie, chair</item>
+        
+    </list>
+    <list n="intro">
+        <item>Craig Bellamy</item>
+        <item>John Bradley</item>
+        <item>Paul Caton</item>
+        <item>Carolyn Guertin</item>
+        <item>Ian R. Johnson</item>
+        <item>Sarah Potvin</item>
+        <item>Jon Saklofske</item>
+        <item>Sydney Shep</item>
+        <item>Tomoji Tabata</item>
+        <item>Melissa Terras</item>
+        <item>Deb Verhoeven</item>
+        <item>Ethan Watrall</item>
+    
+</list>
+                
+</div>
+    
+    <div n="nobreak">
+        <head n="intro_head_small">Local Organizing Committee</head>
+        <list>
+            <item>Katherine Walter, co-local organizer</item>
+                <item>Kenneth Price,  co-local organizer</item></list>
+        
+        <list n="intro">
+            <item>Joan Barnes</item>
+            <item>Karin Dalziel</item>
+            <item>Laura Weakly</item>
+            <item>Kim Weide</item>
+            <item>Annette Wetzel</item>
+            <item>Jeremy Wurst</item></list>
+        
+        
+    </div>
+    
+    
+    <div n="nobreak">
+        <head n="intro_head_small">Conference Sponsors</head>
+        <list n="intro">
+            <item>University of Nebraska&#8211;Lincoln</item>
+            <item>University of Nebraska&#8211;Lincoln Office of Research and Economic Development</item>
+            <item>Senior Vice Chancellor of Academic Affairs Offices at the University of Nebraska&#8211;Lincoln</item>
+            <item>University of Nebraska&#8211;Lincoln Libraries</item>
+            <item>University of Nebraska&#8211;Lincoln Department of History</item>
+        </list>
+    </div>
+    
+    
+    <div n="nobreak">
+        <head n="intro_head_small">Conference Volunteers</head>
+        <list n="intro">
+            <item>DeeAnn Allison</item>
+            <item>David Arredondo</item>
+            <item>Molly Bass</item>
+            <item>Brett Barney</item>
+            <item>Brent Baum</item>
+            <item>Rebecca Bernthal</item>
+            <item>Janel Cayer</item>
+            <item>James Coltrain</item>
+            <item>Kiyomi Deards</item>
+            <item>Laura Dimmit</item>
+            <item>Mary Ellen Ducey</item>
+            <item>Jacob Friefeld</item>
+            <item>Amanda Gailey</item>
+            <item>Peter Gillon</item>
+            <item>Jolie Graybill</item>
+            <item>Patrick Graybill</item>
+            <item>Jaci Groves</item>
+            <item>Jennifer Isasi</item>
+            <item>Andrew Jewell</item>
+            <item>Matt Jockers</item>
+            <item>Matthew Lavin</item>
+            <item>Courtney Lawton</item>
+            <item>Sue Leach</item>
+            <item>Elizabeth Lorang</item>
+            <item>Courtney Lawton</item>
+            <item>Brandon Locke</item>
+            <item>Kevin McMullen</item>
+            <item>Melissa Moll</item>
+            <item>Joseba Moreno</item>
+            <item>Keith Nickum</item>
+            <item>Kayla Nielson</item>
+            <item>Erin Pedigo</item>
+            <item>Brian Pytlik Zillig</item>
+            <item>Stephen Ramsay</item>
+            <item>Svetlana Rasmussen</item>
+            <item>Janet Salvati</item>
+            <item>Robert Shepard</item>
+            <item>Frank Smutniak</item>
+            <item>Kristin Sorensen</item>
+            <item>Grace Thomas</item>
+            <item>William Thomas</item>
+            <item>Maggie Van Diest</item>
+            <item>Laura Weakly</item>
+            <item>Jean Williss </item>
+            <item>Judith Wolfe</item>
+        </list>
+        
+        <p n="text">Special thanks to Computer Operations and Research Services at UNL Libraries for technical support.
+        </p>
+        
+        
+        
+        
+      
+        
+        
+        
+        
+        
+        <!-- 
+            OLD VOLUNTEER LISTS
+        <list>
+            <item>Molly Bass</item>
+            <item>Janel Cayer</item>
+            <item>Laura Dimmit</item>
+            <item>Peter Gillon</item>
+            <item>Jennifer Isasi</item>
+            <item>Matt Jockers</item>
+            <item>Matthew Lavin</item>
+            <item>Elizabeth Lorang</item>
+            <item>Courtney Lawton</item>
+            <item>Brandon Locke</item>
+            <item>Joseba Moreno</item>
+            <item>Kayla Nielson</item>
+            <item>Svetlana Rasmussen</item>
+            <item>Grace Thomas</item>
+        </list>
+        
+        
+        <list>Joanie Barnes</list>
+        <list>Jaci Groves</list>
+        <list>Brent Baum</list>
+        <list>David Arredondo</list>
+        <list>Patrick Graybill</list>
+        <list>Judith Wolfe</list>
+        <list>Jean Williss </list>
+        <list>Mary Ellen Ducey</list>
+        <list>Rebecca Bernthal</list>
+        <list>Sue Leach</list>
+        <list>Kiyomi Deards</list>
+        <list>DeeAnn Allison</list>
+        <list>Molly Bass</list>
+        <list>Janet Salvati</list>
+        <list>Maggie Van Diest</list>
+        <list>Melissa Moll</list>
+        <list>Jolie Graybill</list>
+        
+        -->
+       
+    </div>
+    
+
+
+</body>
+
+
+</text>
+</TEI>
+

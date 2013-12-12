@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://jetson.unl.edu/cdrh/schemas/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PanelDemo-253">
+
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Circular Development: Neatline and the User/Developer Feedback Loop</title>
+<author>
+<name><surname>Boggs</surname>, <forename>Jeremy</forename></name>
+<affiliation>The University of Virginia</affiliation>
+<email>jeremy@clioweb.org</email>
+</author>
+<author>
+<name><surname>Earhart</surname>, <forename>Amy</forename></name>
+<affiliation>Texas A&amp;M University, United States of America</affiliation>
+<email>aearhart@tamu.edu </email>
+</author>
+<author>
+<name><surname>Graham</surname>, <forename>Wayne</forename></name>
+<affiliation>The University of Virginia</affiliation>
+<email>wsg4w@virginia.edu</email>
+</author>
+<author>
+<name><surname>Kelly</surname>, <forename>T. Mills</forename></name>
+<affiliation>George Mason University</affiliation>
+<email>tkelly7@gmail.com</email>
+</author>
+<author>
+<name><surname>McClure</surname>, <forename>David</forename></name>
+<affiliation>The University of Virginia</affiliation>
+<email>dm4n@eservices.virginia.edu</email>
+</author>
+<author>
+<name><surname>Moore</surname>, <forename>Shawn</forename></name>
+<affiliation>Texas A&amp;M University, United States of America</affiliation>
+<email>shawnw.moore@gmail.com</email>
+</author>
+<author>
+<name><surname>Rochester</surname>, <forename>Eric</forename></name>
+<affiliation>The University of Virginia</affiliation>
+<email>erochest@virginia.edu</email>
+</author>
+</titleStmt>
+<publicationStmt>
+<authority></authority>
+<publisher>University of Nebraska-Lincoln</publisher>
+<distributor>
+<name>Center for Digital Research in the Humanities</name>
+<address>
+<addrLine>319 Love Library</addrLine>
+<addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+<addrLine>cdrh@unl.edu</addrLine>
+</address>
+</distributor>
+<pubPlace>Lincoln, Nebraska</pubPlace> 
+<address>
+<addrLine>University of Nebraska-Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+<availability>
+<p></p>
+</availability>
+</publicationStmt>
+
+<notesStmt><note type="abstract">This panel will bring together developers and users to explore the symbiotic relationships built during the life cycle of a software project, Neatline, to discuss the ways in which open-source Digital Humanities projects should work to build both tools and user/developer communities. The panel will elaborate on problems and solutions for collaboration among developers and users they encountered, and suggest ways to turn users into contributors while better attuning a software development team to the needs of its users.</note></notesStmt>
+
+<sourceDesc>
+<p>No source: created in electronic format.</p>
+<p>
+<date when="20130717"></date>
+<time when="10:30:00"></time>
+</p>
+<p n="session">PS02</p>
+</sourceDesc>
+</fileDesc>
+
+<profileDesc>
+<textClass>
+<keywords scheme="original" n="category">
+<term>Panel</term>
+</keywords>
+<keywords scheme="original" n="subcategory">
+<term></term>
+</keywords>
+<keywords scheme="original" n="keywords">
+<term>software</term>
+<term>user</term>
+<term>feedback loop</term>
+<term>building</term>
+<term>collaboration</term>
+</keywords>
+<keywords scheme="original" n="topic">
+<term>project design</term>
+<term>organization</term>
+<term>management</term>
+<term>software design and development</term>
+<term>user studies / user needs</term>
+<term>interdisciplinary collaboration</term>
+</keywords>
+</textClass>
+</profileDesc>
+
+<revisionDesc>
+<change>
+<date when="2013-05-20"></date>
+<name>Laura Weakly</name>
+<desc>Initial encoding</desc>
+</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="panel">
+<body>
+<div>
+
+
+
+<div><epigraph><quote>Any tool should be useful in the expected way, but a truly great tool lends itself to uses you never expected.</quote>
+<cit><bibl>Eric Raymond, <hi rend="italic">The Cathedral and the Bazaar</hi></bibl></cit></epigraph>
+
+
+<p>Eric Raymond’s <hi rend="italic">Cathedral and the Bazaar</hi> describes a series of lessons about the importance of sharing code with users learned during the development of Linux. Raymond emphasizes that non-technical users and third-party developers are capable of doing far more than just finding and fixing bugs&#8212;freely distributing code encourages users to take the software and develop new and unexpected things with it. “The next best thing to having good ideas,” argues Raymond, “is recognizing good ideas from your users. Sometimes the latter is better.” (2000) This kind of engagement with users tends to be the exception, not the rule, though, and even when developers are interested in establishing a cycle of feedback with users, that cycle has to be nurtured and maintained. Software development usually does not take place in a vacuum; software is developed for particular users and use cases. How people use software, and the ways in which they can share those uses, can be myriad. Developers are interested in learning how to recognize and nurture those uses, but this often proves difficult.  Our panel will examine this complicated issue.</p>
+
+<p>“Building” as a hermeneutic has gained increased attention and scrutiny  among the Digital Humanities community. Ramsay (2011) argues that “the Digital Humanities is about building things” and is central to its “methodologization.” Sample (2012) emphasizes the importance of building as work. In particular, Sample espouses <hi rend="italic">collaborative construction</hi> as a group effort where each contribution takes place in dialogue with other contributions, and <hi rend="italic">creative analysis</hi> as a way to learn through creation. An emphasis on building necessitates an equal emphasis on <hi rend="italic">builder</hi>, and as Gina Trampani (2011) argues, nurturing a beneficial user-contributor community that allows a variety of users, regardless of existing skills, to benefit from a hermeneutic of building. Accordingly, we are interested in modeling the communal approaches to building that bridge developer, researcher, and student.</p>
+
+<p>This panel will bring together developers and users to explore the symbiotic relationships built during the life cycle of a software project, to discuss the ways in which open-source Digital Humanities projects should work to build both tools <hi rend="italic">and</hi> user/developer communities. The project that we are using as a testbed for this examination is Neatline, a set of a geo-temporal tools built by the Scholars’ Lab at the University of Virginia for use in the Omeka content management system. During the months leading up to the conference, panel participants will work closely together to build and document their working relationships, all the while working to improve Neatline and implement it in productive ways. The panel will elaborate on problems and solutions for collaboration among developers and users they encountered, and suggest ways to turn users into contributors while better attuning a software development team to the needs of its users.  Of particular attention to the panel will be the way in which the tool is used for multiple purposes,  including research and teaching, and how such uses impact the feedback loop.</p></div>
+
+<div>
+<head>Panel Organization &amp; Participants</head>
+
+<div><p>We propose to conduct a panel featuring users and developers of the Neatline suite.  Each participant will open the panel with a 5 minute statement describing their particular experience over the course of their collaboration, followed by a group discussion that addresses several questions.  All participants are excited to participate in this panel.</p></div>
+
+
+<div>
+<head>Participants</head>
+
+<p><hi rend="bold">Jeremy Boggs</hi> is Design Architect for Digital Research and Scholarship at the University of Virginia Library. Boggs will discuss methods for getting outside users more easily involved in the development process for Neatline. He will focus on the tools used and documentation developed during the group’s collaboration effort.</p>
+
+<p><hi rend="bold">Amy Earhart</hi> is Assistant Professor of English at Texas A&amp;M University. Earhart will discuss how her undergraduate students used Neatline to map Malcolm X’s New York, pointing to particular areas of tension between pedagogical models of digital humanities tools and the feedback loop.  She will offer potential ways to eliminate such issues.</p>
+
+<p><hi rend="bold">Wayne Graham</hi> is Head of Research and Development for Digital Research and Scholarship at the University of Virginia Library. Graham will discuss the day-to-day management of Neatline development, and in particular his strategies for balancing user needs and contributions with the priorities of the core Neatline development team.</p>
+
+<p><hi rend="bold">T. Mills Kelly</hi> is Associate Professor of History at George Mason University and Associate Director of the Roy Rosenzweig Center for History and New Media. Kelly will discuss the use of Neatline in his historical methods course, “Dead in Virginia.” He will focus on the aspects of the user experience that seemed to influence student learning in the course.</p>
+
+<p><hi rend="bold">David McClure</hi> is Web Applications Developer for Digital Research and Scholarship at the University of Virginia Library, and is lead developer on Neatline. McClure will talk about his perspective as a lead developer on Neatline.</p>
+
+<p><hi rend="bold">Shawn Moore</hi> is a doctoral student at Texas A&amp;M University and is a fellow for the Initiative for Digital Humanities, Media, and Culture (IDHMC). Moore will talk about the process of transitioning from a user of Neatline to a contributing developer during his ongoing dissertation project on Margaret Cavendish, Duchess of Newcastle (1623-1673).</p>
+
+<p><hi rend="bold">Eric Rochester</hi> is Senior Developer for Digital Research and Scholarship at the University of Virginia Library. Rochester will discuss the tenuous balance between choosing the best tools and languages for a project with getting and encouraging outside contributions to a project. </p></div>
+
+
+<div>
+<head>Questions</head>
+
+<list type="unordered">
+<item> What benefits will a software feedback loop provide to both user and developer?</item>
+<item> What tools and methods did the group find most helpful during the process?</item>
+<item> Discuss the impact of non-specialist users, such as students, on the feedback loop.</item>
+<item> How can open-source projects create inclusive communities that invite contributions from people with skill-sets and backgrounds that are underrepresented in the open-source community?</item>
+<item> In what ways does nurturing an outside user/developer community contribute to the use and sustainability of a Digital Humanities project?</item>
+<item> What were the most challenging aspects of this collaboration?</item>
+<item> Discuss future models of the feedback loop based on what you have learned in this model.</item></list>
+</div>
+
+</div>
+
+
+
+                
+</div>
+
+</body>
+
+<back>
+<div type="References">
+<listBibl>
+
+
+<bibl><hi rend="bold">Bryant, T.</hi> (2006). Social software in academia. <hi rend="italic">Educause Quarterly</hi> 29(2): 61.</bibl>
+
+<bibl><hi rend="bold">Clement, T., and D. Reside</hi> (2011). Off the Tracks: Laying New Lines for Digital Humanities Scholars. Results of an NEH Workshop, Maryland Institute for Technology in the Humanities. <ref type="url" target="http://mith.umd.edu/offthetracks/">http://mith.umd.edu/offthetracks/</ref>.</bibl>
+
+<bibl><hi rend="bold">Cohen, D. J.</hi> (2008). Creating Scholarly Tools and Resources for the Digital Ecosystem: Building Connections in the Zotero Project. <hi rend="italic">First Monday</hi> 13(8) <ref type="url" target="http://firstmonday.org/htbin/cgiwrap/bin/ojs/index.php/fm/article/view/2233/2017">http://firstmonday.org/htbin/cgiwrap/bin/ojs/index.php/fm/article/view/2233/2017</ref>.</bibl>
+
+<bibl><hi rend="bold">Easley, D., and J. Kleinberg</hi> (2010). <hi rend="italic">Networks, Crowds, and Markets: Reasoning about a Highly Connected World</hi>. <ref type="url" target="http://www.cs.cornell.edu/home/kleinber/networks-book/">http://www.cs.cornell.edu/home/kleinber/networks-book/</ref></bibl>
+
+<bibl><hi rend="bold">Fogel, K.</hi> (2005). <hi rend="italic">Producing Open Source Software: How to Run a Successful Free Software Project</hi>. Sebastopol, CA: O’Reilly.</bibl>
+
+<bibl><hi rend="bold">Klein, L. F.</hi> (2012). A Report Has Come Here. <ref type="url" target="http://lmc.gatech.edu/~lklein7/?p=86">http://lmc.gatech.edu/~lklein7/?p=86</ref>.</bibl>
+
+<bibl><hi rend="bold">McPherson, T.</hi> (2010). Scaling Vectors: Thoughts on the Future of Scholarly Communication. <hi rend="italic">Journal of Electronic Publishing</hi> 13(2) <ref type="url" target="http://hdl.handle.net/2027/spo.3336451.0013.208">http://hdl.handle.net/2027/spo.3336451.0013.208</ref>.</bibl>
+
+<bibl><hi rend="italic">Neatline</hi>. <ref type="url" target="http://neatline.org">http://neatline.org</ref></bibl>
+
+<bibl><hi rend="bold">Nowviskie, B. (ed.)</hi> (2011). <hi rend="italic">#Alt-Academy: Alternative Academic Careers for Humanities Scholars</hi>. MediaCommons Press.  <ref type="url" target="http://mediacommons.futureofthebook.org/alt-ac/">http://mediacommons.futureofthebook.org/alt-ac/</ref></bibl>
+
+<bibl><hi rend="bold"><hi rend="italic">Omeka</hi></hi>. http://omeka.org.</bibl>
+
+<bibl><hi rend="bold"><hi rend="italic">Perspectives on Free and Open Source Software</hi></hi>. (2010). Cambridge: The MIT Press.</bibl>
+
+<bibl><hi rend="bold">Ramsay, S.</hi> (2011). On Building. <ref type="url" target="http://stephenramsay.us/text/2011/01/11/on-building.html">http://stephenramsay.us/text/2011/01/11/on-building.html</ref> (accessed 11 January 2011).</bibl>
+
+<bibl><hi rend="bold">Ramsay, S.</hi>. (2011). Who’s In and Who’s Out?<ref type="url" target="http://stephenramsay.us/text/2011/01/08/whos-in-and-whos-out.html">http://stephenramsay.us/text/2011/01/08/whos-in-and-whos-out.html</ref> (accessed 8 January 2011).</bibl>
+
+<bibl><hi rend="bold">Ramsay, S.</hi>. (2012). Programming with Humanists: Reflections on Raising an Army of Hacker-Scholars in the Digital Humanities.  In Hirsch, B. D. (ed.), <hi rend="italic">Teaching Digital Humanities: Principles, Practices, Politics</hi>. Ann Arbor: University of Michigan Press.</bibl>
+
+<bibl><hi rend="bold">Ramsay, S., and G. Rockwell</hi> (2012). Developing Things: Notes Toward an Epistemology of Building in the Digital Humanities In Gold, M. (ed.), <hi rend="italic">Debates in the Digital Humanities</hi>. Minneapolis: University of Minnesota Press. 75-84.</bibl>
+
+<bibl><hi rend="bold">Raymond, E. S.</hi> (2000).  <hi rend="italic">The Cathedral and the Bazaar</hi>. Sebastopol, CA: O’Reilly.</bibl>
+
+<bibl><hi rend="bold">Sample, M.</hi> (2012). Building and Sharing (When You’re Supposed to be Teaching). <hi rend="italic">Journal of Digital Humanities</hi>. 1(1) <ref type="url" target="http://journalofdigitalhumanities.org/1-1/building-and-sharing-when-youre-supposed-to-be-teaching-by-mark-sample/">http://journalofdigitalhumanities.org/1-1/building-and-sharing-when-youre-supposed-to-be-teaching-by-mark-sample/</ref>.</bibl>
+
+<bibl><hi rend="bold">Trapani, G.</hi> Designers, Women, and Hostility in Open Source. 
+   <ref type="url" target="http://smarterware.org/7550/designers-women-and-hostility-in-open-source">http://smarterware.org/7550/designers-women-and-hostility-in-open-source</ref> (accessed 23 March 2011).</bibl>
+
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>
+

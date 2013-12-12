@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://jetson.unl.edu/cdrh/schemas/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" xml:id="intro-009">
+
+<teiHeader>
+<fileDesc>
+<titleStmt>
+    <title>Bursary Winners</title>
+<!--<author>
+<name>
+    <surname>Nerbonne</surname>, 
+    <forename>John</forename>
+</name>
+<!-\-<affiliation>University</affiliation>-\->
+<email></email>
+</author>-->
+</titleStmt>
+<publicationStmt>
+<authority></authority>
+<publisher>University of Nebraska-Lincoln</publisher>
+<distributor>
+<name>Center for Digital Research in the Humanities</name>
+<address>
+<addrLine>319 Love Library</addrLine>
+<addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+<addrLine>cdrh@unl.edu</addrLine>
+</address>
+</distributor>
+<pubPlace>Lincoln, Nebraska</pubPlace> 
+<address>
+<addrLine>University of Nebraska-Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+<availability>
+<p></p>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<p>No source: created in electronic format.</p>
+</sourceDesc>
+</fileDesc>
+
+<profileDesc>
+<textClass>
+<keywords scheme="original" n="category">
+<term>Intro</term>
+</keywords>
+<keywords scheme="original" n="subcategory">
+<term></term>
+</keywords>
+<keywords scheme="original" n="topic">
+<term></term>
+</keywords>
+<keywords scheme="original" n="keywords">
+<term></term>
+</keywords>
+</textClass>
+</profileDesc>
+
+<revisionDesc>
+<change>
+<date/>
+<name/>
+<desc/>
+</change>
+</revisionDesc>
+</teiHeader>
+
+    <text type="paper" n="single">
+<body>
+<div>
+ <head>Digital Humanities 2013 Student Conference Bursaries</head>
+
+<p n="intro_text"><hi rend="italic">Two of the 2013 bursary awards have been enabled by a generous donation from Patrick Juola</hi></p>
+
+<p n="intro_text">Hamed M. Alhoori (Texas A&amp;M University)<lb/>
+    Adam Anderson (Harvard University) and David Bamman (Carnegie Mellon University)<lb/>
+Drayton Callen Benner (University of Chicago)<lb/>
+Alberto Campagnolo (University of the Arts, London)<lb/>
+    Alexandra Chassanoff (University of North Carolina at Chapel Hill)<lb/>
+Constance Crompton (University of British Columbia-Okanagan)<lb/>
+    Courtney Evans and Ben Jasnow (University of Virginia)<lb/>
+Paul Matthew Gooding (University College London)<lb/>
+Andrew Hankinson (McGill University)<lb/>
+Simon Rowberry (University of Winchester)<lb/>
+Graham Alexander Sack (Columbia University)<lb/>
+Ayush Shrestha (Georgia State University)<lb/>
+Dana Ryan Solomon (UC Santa Barbara)<lb/>
+Lindsay Thomas (University of California, Santa Barbara)</p>
+    <p>&#160;</p>
+</div>
+    
+    <div type="intro_material">
+        
+        <head>Consortium on Institutional Cooperation (CIC) Graduate Student Scholarships</head>
+        
+        <p n="intro_text"><hi rend="italic">The University of Nebraska-Lincoln received a generous donation to make competitive awards to the following students from CIC universities</hi></p>
+        
+        <p>Terry Brock (Michigan State University)<lb/>
+            Mattie Burkert (University of Wisconsin)<lb/>
+            Matt Burton (University of Michigan)<lb/>
+            Trey Conatser (The Ohio State University)<lb/>
+            Christopher Leeder (University of Michigan)<lb/>
+            Grant Simpson (Indiana University)<lb/>
+        Dawn Taylor (Penn State University)</p>
+    
+    
+  <!--  <p n="intro_text">Hamed M. Alhoori (Texas A&amp;M University)<lb/>
+        Adam Anderson (Harvard University)<lb/>
+        David Bamman (Carnegie Mellon University)<lb/>
+        Drayton Callen Benner (University of Chicago)<lb/>
+        Alberto Campagnolo (University of the Arts, London)<lb/>
+        Alexandra Chassanoff (UNC Chapel Hill)<lb/>
+        Constance Crompton (UBC-Okanagan)<lb/>
+        Courtney Evans (University of Virginia)<lb/>
+        Paul Matthew Gooding (University College London)<lb/>
+        Andrew Hankinson (McGill University)<lb/>
+        Ben Jasnow (University of Virginia)<lb/>
+        Simon Rowberry (University of Winchester)<lb/>
+        Graham Alexander Sack (Columbia University)<lb/>
+        Ayush Shrestha (Georgia State University)<lb/>
+        Dana Ryan Solomon (UC Santa Barbara)<lb/>
+        Lindsay Thomas (University of California, Santa Barbara)</p>-->
+                  
+</div>
+
+</body>
+
+
+</text>
+</TEI>
+

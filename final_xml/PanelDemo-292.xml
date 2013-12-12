@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://jetson.unl.edu/cdrh/schemas/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PanelDemo-292">
+
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>The Future of Undergraduate Digital Humanities</title>
+<author>
+<name><surname>Croxall</surname>, <forename>Brian</forename></name>
+<affiliation>Emory University, United States of America</affiliation>
+<email>brian.croxall@emory.edu</email>
+</author>
+<author>
+<name><surname>Singer</surname>, <forename>Kate</forename></name>
+<affiliation>Mount Holyoke College, United States of America</affiliation>
+<email>ksinger@mtholyoke.edu </email>
+</author>
+<author>
+<name><surname>Ball</surname>, <forename>Cheryl E.</forename></name>
+<affiliation>Illinois State University, United States of America</affiliation>
+<email>cball@ilstu.edu</email>
+</author>
+<author>
+<name><surname>Cordell</surname>, <forename>Ryan</forename></name>
+<affiliation>Northeastern University, United States of America</affiliation>
+<email>rccordell@gmail.com</email>
+</author>
+<author>
+<name><surname>Davis</surname>, <forename>Rebecca Frost</forename></name>
+<affiliation>National Institute for Technology in Liberal Education (NITLE)</affiliation>
+<email>rdavis@nitle.org</email>
+</author>
+<author>
+<name><surname>McDonald</surname>, <forename>Jarom</forename></name>
+<affiliation>Brigham Young University, United States of America</affiliation>
+<email>jarom_mcdonald@byu.edu</email>
+</author>
+<author>
+<name><surname>Posner</surname>, <forename>Miriam</forename></name>
+<affiliation>University of California, Los Angeles, United States of America</affiliation>
+<email>miriam.posner@gmail.com</email>
+</author>
+<author>
+<name><surname>Theibault</surname>, <forename>John</forename></name>
+<affiliation>Richard Stockton College, United States of America</affiliation>
+<email>John.Theibault@stockton.edu</email>
+</author>
+</titleStmt>
+<publicationStmt>
+<authority></authority>
+<publisher>University of Nebraska-Lincoln</publisher>
+<distributor>
+<name>Center for Digital Research in the Humanities</name>
+<address>
+<addrLine>319 Love Library</addrLine>
+<addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+<addrLine>cdrh@unl.edu</addrLine>
+</address>
+</distributor>
+<pubPlace>Lincoln, Nebraska</pubPlace> 
+<address>
+<addrLine>University of Nebraska-Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+<availability>
+<p></p>
+</availability>
+</publicationStmt>
+
+<notesStmt><note type="abstract">Alongside the increasing number of digital humanities job listings, postdoctoral fellowships, and graduate programs, we have begun to see a number of introductory digital humanities courses and the creation of several programs at the undergraduate level. Accordingly, it seems an opportune time to think closely about how the digital humanities will shape undergraduate education—and vice versa.
+
+This panel considers how we might recalibrate the digital’s role in the humanities by making undergraduate education a more central preoccupation. Gathering six initiators of digital humanities programs for undergraduates to discuss their past and future, this panel will feature 40 minutes of timed presentations about a particular institutional praxis or curricular infrastructure connected to a larger problem or set of issues surrounding undergraduate digital humanities; 20 minutes of roundtable discussion directed by the panel organizers; and 30 minutes of open discussion with the audience.</note></notesStmt>
+
+<sourceDesc>
+<p>No source: created in electronic format.</p>
+<p>
+<date when="20130717"></date>
+<time when="13:30:00"></time>
+</p>
+<p n="session">PS03</p>
+</sourceDesc>
+</fileDesc>
+
+<profileDesc>
+<textClass>
+<keywords scheme="original" n="category">
+<term>Panel</term>
+</keywords>
+<keywords scheme="original" n="subcategory">
+<term></term>
+</keywords>
+<keywords scheme="original" n="keywords">
+<term>pedadgoy</term>
+<term>undergraduate</term>
+<term>infrastructure</term>
+<term>curriculum</term>
+<term>praxis</term>
+</keywords>
+<keywords scheme="original" n="topic">
+<term>digital humanities - institutional support</term>
+<term>teaching and pedagogy</term>
+<term>digital humanities &#8212; pedagogy and curriculum</term>
+</keywords>
+</textClass>
+</profileDesc>
+
+<revisionDesc>
+<change>
+<date when="2013-05-20"></date>
+<name>Laura Weakly</name>
+<desc>Initial encoding</desc>
+</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="paper">
+<body>
+<div>
+<div>
+<p>Alongside the increasing number of digital humanities job listings, postdoctoral fellowships, and graduate programs, we have begun to see a number of introductory digital humanities courses and the creation of several programs at a wide range of undergraduate institutions &#8212; everything from small liberal arts colleges to state universities to research-intensive private institutions. Consequently, it seems opportune to think closely about how the digital humanities will shape undergraduate education &#8212; and vice versa. New jobs and fellowships presuppose undergraduates who have been and will be introduced to conversations of the digital humanities as well as humanities faculty who will teach them. While the late 1990s sparked discussions among Canadian and US institutions about the creation of undergraduate and master’s programs (Rockwell 1999; Unsworth 2001; Sinclair and Gouglas 2002), new technologies and institutional interest have renewed the conversation (Spiro 2010; Fitzpatrick 2010; Brier 2012; Reid 2012; Davis and Alexander 2012). Because such a large number and range of institutions are now considering implementing some training in the digital humanities, it now seems timely to contemplate the future of undergraduate digital humanities. </p>
+
+<p>This panel considers how we might recalibrate the digital’s role in the humanities by making undergraduate education—and not simply digital pedagogy &#8212; a more central preoccupation. Building on recent, compelling discussions of infrastructure and curriculum for digital humanities graduate programs (Clement 2010; Thaller et al. 2012; Boggs et al. 2012) as well as roundtables on alternative careers (Nowviskie et al. 2011), dynamic constellations for undergraduate education are emerging from the interactions among new computational methods, hybrid classroom spaces, reimagined curricula, and alternative career paths for college graduates. This panel gathers several initiators of such digital humanities programs for undergraduates to discuss their past and future.</p>
+
+<p>More than simply creating students to enroll in new graduate programs, introducing the methods of the digital humanities to undergraduates provides opportunities for them to do something traditionally reserved for students in the sciences: original, collaborative research (Blackwell and Martin 2009; Norcia 2008). Moreover, digital humanities has arguably brought renewed attention to discussions of praxis and pedagogy, with online journals such as <hi rend="italic">Hybrid Pedagogy</hi> and <hi rend="italic">The Journal of Interactive Pedagogy and Technology</hi>; Brett D. Hirsch’s recent <hi rend="italic">Digital Humanities Pedagogy: Practices, Principles, Politics</hi> (2012); multiple panels on digital pedagogy at the 2012 MLA (Harris 2012; Berens and Croxall 2012) and a digital pedagogy unconference at the 2013 MLA (Croxall and Koh 2013); Brown University’s “Teaching with TEI” seminar (2012); a dedicated track at recent Digital Humanities Summer Institutes (Harris, Sayers, and Jakacki 2012; Jakacki 2013); and several poster presentations at recent Digital Humanities Conferences (Bonsignore et al., 2011; Harris 2011; Singer 2012; Croxall 2012). Our hope is that a roundtable discussion, drawing on participants from different fields and representing many different types of U.S. institutions, will help, first, to identify some of the best contemporary approaches to undergraduate digital humanities curricula, infrastructure, course scaffolding, and praxis and, second, to sketch out new directions for the future of undergraduate education at a variety of undergraduate institutions.  </p>
+</div>
+
+<div>
+<head>Organization</head>
+
+<p>Each speaker will talk for 7 minutes about a particular institutional praxis or curricular infrastructure. The organizers will then pose questions for the entire roundtable for 20 minutes, leaving the remainder of the conversation for discussion among panelists and the audience.</p>
+
+<p>To begin with, panelists will map out the multiple and competing histories of digital humanities’ recent incursion into undergraduate education, just as Matthew Kirschenbaum (2010) and others have sought to understand digital humanities by reflecting on its institutional histories. Part of this multiplicity, of course, is due to the ways in which “digital humanities” is understood differently at each institution, due to the specific interests of individual scholars, the focus of particular departments, and the demands of institutional mission. With these issues in mind, panelists will present several different models for integrating digital humanities into undergraduate coursework: from introductory seminars for first-year students who may lack technological skills through advanced courses for majors to specialized, independent research projects as capstone experiences. In doing so, we will consider both how best to structure something like an “Introduction to Digital Humanities” course and how to connect disparate projects, faculty, and upper-level courses. Such scaffolding naturally begs the larger question of whether digital humanities is best introduced to undergraduates as a separate discipline or as a crucial part of traditional humanities courses. Finally, while all panelists generally agree on a praxis-based approach to such courses, they will also discuss how best to execute and theorize praxis in the different disciplines.</p>
+
+<p>Questions that panel organizers might pose during the subsequent discussion include:
+<list type="unordered">
+<item>Is digital humanities a topic that should be based within particular departments? Or is it something that should be taught across all humanities undergraduate departments?</item>
+<item>What departmental or university infrastructure and support are necessary for a digital humanities undergraduate curriculum?</item>
+<item>What is necessary to prepare students for digital humanities work at the graduate level? Is adequate preparation possible without more formalized graduate programs in place?</item>
+<item>How do we redesign curricula to incorporate both DH courses and incursions into traditional disciplines?</item>
+<item>Is digital humanities a methodology or a topic of study? How can the two approaches be best integrated in the undergraduate classroom?</item>
+<item>What are best practices for praxis methodologies and project-based research approaches in the undergraduate classroom?</item>
+<item>How might we envision curricula to be redesigned in the future with digital tools and digital critical thinking in mind?</item>
+<item>How might national and international conceptions of undergraduate education shape digital humanities incursions differently?</item></list>
+</p>
+
+</div>
+
+<div>
+<head>Speakers </head>
+<p>Recognizing the importance of undergraduate education in the future of the digital humanities, all six speakers have enthusiastically committed to attend and present at DH in Lincoln. </p>
+
+<list type="unordered">
+<item>Cheryl E. Ball, Associate Professor of English, Illinois State University<lb/>
+Ball highlights how digital writing studies (a discipline in its fourth decade that integrates digital technology into its writing pedagogy and research) has always focused on issues current to discussions of “making” in the digital humanities: collaboration, openness, multimodality, and peer-review. Ball argues that a digital publishing curriculum, in which undergraduate students theorize and produce texts meant for an audience outside of the classroom (a key concept to digital writing studies pedagogy), is a model for DH in how it bridges theory and praxis across multiple disciplines in the humanities.</item>
+
+<item>Ryan Cordell, Assistant Professor of English, Northeastern University<lb/>
+Cordell writes frequently about technology and teaching for the ProfHacker blog at the Chronicle of Higher Education and has taught digital humanities-inflected courses at both a liberal arts college and a research university. He will draw on those experiences in his contribution to this panel, where he will contend that undergraduates do not share their instructors' fascination with defining or theorizing digital humanities qua digital humanities. Rather than dwelling on such debates, he will suggest that DH instructors should embrace undergraduate disinterest in DH as an aid to curricular incursion, allowing digital practices to be introduced as routine aspects of scholarly practice.</item>
+
+<item>Rebecca Frost Davis, Program Officer for the Humanities, National Institute for Technology in Liberal Education (NITLE)<lb/>
+Davis will discuss results of NITLE’s 2012 Survey of Digital Humanities at Liberal Arts Colleges, institutions that largely integrate digital methodologies via disciplinary coursework and student scholarship, rather than as a separate academic program.  Her research explores the motivations and mechanisms for creating, integrating, and sustaining digital humanities within and across the undergraduate curriculum.</item>
+
+<item>Jarom McDonald, Associate Research Professor and Director, Office of Digital Humanities, Brigham Young University<lb/>
+McDonald will address the topic, "Considering a Moneyball approach to Digital Humanities Education." BYU has just finished a multi-year assessment project of their long-running Computers and the Humanities minor, gathering empirical data through surveys, collaborative faculty input sessions, student tracking, and external review. He will discuss how he and colleagues are now working to understand how to best implement the wealth of evidence they've collected to help their program evolve for current and future students' needs.</item>
+
+<item>Miriam Posner, Digital Humanities Coordinator and Research Technology Consultant, UCLA<lb/>
+Posner, who both coordinates and teaches in UCLA’s Digital Humanities program, is helping build a new interdisciplinary minor in digital humanities. She will speak on “knowledge design,” a pedagogical approach she and her colleagues have adopted that emphasizes an environment of project-based collaboration. Drawing on theories advanced by Johanna Drucker and Jerome McGann, she will describe the program’s studio model in which students are assigned a novel problem and asked to work across disciplines and hierarchies to solve it together.</item>
+
+<item>John Theibault, Director, South Jersey Center for Digital Humanities, Richard Stockton College of New Jersey<lb/>
+Theibault began his academic career as a historian of early modern Europe and is currently Director of the South Jersey Center for Digital Humanities at Stockton College. He started teaching "Introduction to Digital Humanities" to undergraduates in the General Studies program at Stockton in 2011, which prompted his reflections about where such a course fits within a broader digital humanities curriculum for undergraduates, the topic of his presentation.</item>
+</list>
+</div>
+
+<div>
+<head>Organizers</head>
+<list type="unordered">
+<item>Dr. Brian Croxall, Digital Humanities Strategist &amp; Lecturer of English, Emory University</item>
+<item>Dr. Kate Singer, Assistant Professor of English, Mount Holyoke College</item></list>
+</div>
+
+
+                
+</div>
+
+</body>
+
+<back>
+<div type="References">
+<listBibl>
+
+<bibl><hi rend="bold">Alexander, B., and R. F. Davis</hi> (2012). <hi rend="italic">Should Liberal Arts Campuses Do Digital Humanities? Process and Products in the Small College World.</hi> <hi rend="italic">Debates in the Digital Humanities</hi>. Minnesota University Press. 368-389.</bibl>
+
+<bibl><hi rend="bold">Berens, K. I., and B. Croxall</hi> (2011). <hi rend="italic">Session Proposal.</hi> <hi rend="italic">Building Digital Humanities in the Undergraduate Classroom.</hi> 28 Nov. 2011. Web. <ref type="url" target="http://www.briancroxall.net/buildingDH/2011/11/28/session-proposal/">http://www.briancroxall.net/buildingDH/2011/11/28/session-proposal/</ref>. 17 Oct. 2012.</bibl>
+
+<bibl><hi rend="bold">Blackwell, C., and T. R. Martin</hi> (2009). <hi rend="italic">Technology, Collaboration, and Undergraduate Research.</hi> <hi rend="italic">Digital Humanities Quarterly</hi>. 3(1). <ref type="url" target="http://www.digitalhumanities.org/dhq/vol/3/1/index.html">http://www.digitalhumanities.org/dhq/vol/3/1/index.html</ref>. 17 Oct 2012.</bibl>
+
+<bibl><hi rend="bold">Boggs, J., et al. (2012)</hi>. <hi rend="italic">Realigning Digital Humanities Training: The Praxis Program at the Scholars’ Lab.</hi> <hi rend="italic">Digital Humanities 2012.</hi> University of Hamburg. 18 July 2012. Poster presentation.</bibl>
+
+<bibl><hi rend="bold">Bonsignore, B., et al.</hi> (2011). <hi rend="italic">The Arcane Gallery of Gadgetry: A Design Case Study of an Alternate Reality Game.</hi> <hi rend="italic">Digital Humanities 2011.</hi> Stanford University. 21 June 2011. Poster presentation.</bibl>
+
+<bibl><hi rend="bold">Brier, S.</hi> (2012). <hi rend="italic">Where’s the Pedagogy? The Role of Teaching and Learning in the Digital Humanities.</hi> <hi rend="bold">Debates in Digital Humanities</hi>. Minnesota UP: 350-367.</bibl>
+
+<bibl><hi rend="bold">Clement, T.</hi> (2010). <hi rend="italic">An Undergraduate Perspective.</hi> <hi rend="italic">Digital Literacy for the Dumbest Generation.</hi> <hi rend="italic">Digital Humanities 2010.</hi> King’s College London. 8 July 2010.</bibl>
+
+<bibl><hi rend="bold">Croxall, B.</hi> (2012). <hi rend="italic">Courting ‘The World’s Wife’: Original Digital Humanities Research in the Undergraduate Classroom.</hi> <hi rend="italic">Digital Humanities 2012.</hi> University of Hamburg. 18 July 2012.</bibl>
+
+<bibl><hi rend="bold">Croxall, B., and A. Koh.</hi> (2013). <hi rend="italic">A Digital Pedagogy Unconference</hi>. Modern Language Association Convention. Boston. 3 January 2013. <ref type="url" target="http://www.briancroxall.net/digitalpedagogy/">http://www.briancroxall.net/digitalpedagogy/</ref>. 17 Oct. 2012.</bibl>
+
+<bibl><hi rend="bold">Fitzpatrick, K.</hi>  (2010). Undergrads Reimagine the Humanities. <hi rend="italic">Planned Obsolescence</hi>. 11 December 2010.
+ <ref type="url" target="http://www.plannedobsolescence.net/blog/undergrads-reimagine-the-humanities/">http://www.plannedobsolescence.net/blog/undergrads-reimagine-the-humanities/</ref>. 25 February 2013.</bibl>
+
+<bibl><hi rend="bold">Harris, K. D.</hi> (2011). Pedagogy &amp; Play: Revising Learning through Digital Humanities. Digital Humanities 2011. Stanford University. 21 June 2011. Poster presentation.</bibl>
+
+<bibl><hi rend="bold">Harris, K. D.</hi> (2011). Acceptance of Pedagogy &amp; DH MLA 2012. <hi rend="italic">triproftri</hi>. 14 May 2011. <ref type="url" target="http://triproftri.wordpress.com/2011/05/14/accseptance-of-pedagogy-dh-mla-2012/">http://triproftri.wordpress.com/2011/05/14/acceptance-of-pedagogy-dh-mla-2012/</ref>. Web. 17 Oct. 2012.</bibl>
+
+<bibl><hi rend="bold">Harris, K. D., J. Sayers, and D. Jakacki</hi>. (2011) Digital Pedagogy in the Humanities. <hi rend="italic">Digital Humanities Summer Institute</hi>. University of Victoria. June 2011 and June 2012.</bibl>
+
+<bibl><hi rend="bold">Hirsch, B. D.</hi> (2012). <hi rend="italic">Digital Humanities Pedagogy: Practices, Principles and Politics</hi>. Open Book Publishers, 2012.</bibl>
+
+<bibl><hi rend="bold">Jacacki, D.</hi> (2013). Digital Pedagogy in the Humanities. <hi rend="italic">Digital Humanities Summer Institute</hi>. University of Victoria. June 2013.</bibl>
+
+<bibl><hi rend="bold">Kirschenbaum, M. G.</hi> (2010). What is Digital Humanities and What’s it Doing in English Departments? <hi rend="italic">ADE Bulletin</hi> 150: 1-7.</bibl>
+
+<bibl><hi rend="bold">Norcia, M.</hi> (2008). Out of the Ivory Tower Endlessly Rocking: Collaborating across Disciplines and Professions to Promote Student Learning in the Digital Archive. <hi rend="italic">Pedagogy</hi> 8(1): 91-114.</bibl>
+
+<bibl><hi rend="bold">Nowviskie, B., et al.</hi> (2011). The "#alt-ac" Track: Digital Humanists off the Straight and Narrow Path to Tenure. <hi rend="italic">Digital Humanities 2011</hi>. Stanford University. 22 June 2011.</bibl>
+
+<bibl><hi rend="bold">Reid, A.</hi> (2012). Graduate Education and the Ethics of the Digital Humanities. <hi rend="italic">Debates in Digital Humanities</hi>. Minnesota UP, 390-401.</bibl>
+
+<bibl><hi rend="bold">Rockwell, G.</hi> (1999). <hi rend="italic">Is Humanities Computing an Academic Discipline?</hi> <ref type="url" target="http://www.iath.virginia.edu/hcs/rockwell.html">http://www.iath.virginia.edu/hcs/rockwell.html</ref>. 25 February 2013.
+</bibl>
+
+<bibl><hi rend="bold">Sinclair, S., and S. W. Gouglas</hi> (2002). Theory into Practice: A Case Study of the Humanities Computing Master of Arts Programme at the University of Alberta. <hi rend="italic">Arts and Humanities in Higher Education</hi> 1.2: 167-183. </bibl>
+
+<bibl><hi rend="bold">Singer, K.</hi> (2012). The Melesina Trench Project: Markup Vocabularies, Poetics, and Undergraduate Pedagogy. Digital Humanities 2012. University of Hamburg. 18 July 2012.</bibl>
+
+<bibl><hi rend="bold">Spiro, L.</hi> (2010).  Opening Up Digital Humanities Education. <hi rend="italic">Digital Scholarship in the Humanities</hi>. 8 September 2010. <ref type="url" target="http://digitalscholarship.wordpress.com/ 2010/09/08/opening-up-digital-humanities-education/">http://digitalscholarship.wordpress.com/ 2010/09/08/opening-up-digital-humanities-education/</ref>. 25 February 2013. </bibl>
+
+<bibl><hi rend="bold">Thaller, M. et al.</hi> (2012). Digital Humanities as a University Degree: The Status Quo and Beyond. Digital Humanities 2012. University of Hamburg. 18 July 2012.</bibl>
+
+<bibl><hi rend="bold">Unsworth, J.</hi> (2001). <hi rend="italic">A Master’s Degree in Digital Humanities: Part of the Media Studies Program at the University of Virginia</hi>. 25 May 2001.
+ <ref type="url" target="http://people.lis.illinois.edu/~unsworth/laval.html">http://people.lis.illinois.edu/~unsworth/laval.html</ref>. 25 February 2013.</bibl>
+
+<bibl><hi rend="bold">Women Writers Project.</hi> (2012). Taking TEI Further: Teaching with TEI. Brown University Seminar. 20-22 August 2012. </bibl>
+
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>
+
