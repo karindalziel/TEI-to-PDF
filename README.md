@@ -123,7 +123,7 @@ The variable
 will let you set whether you intend to create a PDF for printing (print) or for electronic distribution (pdf). Some of the differences include:
 
 * Color: The print version does not use color for headings, etc., and will pull a black and white optimized version of the logo. We left the paper illustrations in color and they simply printed in grayscale.
-* Margins: The print version of the book has different margins for left and right to accommodate the gutter. The PDF version has the same margins on both sides to make it easier to read. Note: you should make sure all margins ad up to the same between print and PDF versions so the page count will remain the same.
+* Margins: The print version of the book has different margins for left and right to accommodate the gutter. The PDF version has the same margins on both sides to make it easier to read. Note: you should make sure all margins add up to the same between print and PDF versions so the page count will remain the same.
 * Cover: The PDF/web distributed version includes the covers for aesthetic purposes. For the print version, we prepared cover designs as illustrator files and gave them to the printer. 
 
 #### Print paper ID's?
@@ -136,11 +136,11 @@ is used to display or not display the paper ID's (pulled from the xml:id). This 
 
 #### Other Options
 
-All other options, including header colors, font color, size, and decoration, page and margin sizes, etc. should be set hear the top in the "Attribute sets" portion of the file. 
+All other options, including header colors, font color, size, and decoration, page and margin sizes, etc. should be set near the top in the "Attribute sets" portion of the file. 
 
 Some notes: 
 
-* We used special coding for different languages and math formulas in order to render them in certain fonts. In the TEI, this looked like this: <\hi rend="Hebrew">
+* We used special coding for different languages and math formulas in order to render them in certain fonts. In the TEI, this looked like this: &lt;hi rend="Hebrew">
 * All sizes are currently in inches, so will need to be reconfigured for metric use.
 * The ISBN is set in this file, because it will be different for print or ebook.
 
