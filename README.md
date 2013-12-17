@@ -180,7 +180,7 @@ This creates a file called pdf.fo. Any errors (missing images, etc) will be expo
 
 If you get an out of memory error, see section on configuring FOP above.
 
-You will likely get a bunch of font errors, but these may or may not matter. Check fyour final file to make sure all characters display correctly. 
+You will likely get a bunch of font errors, but these may or may not matter. Check your final file to make sure all characters display correctly. 
 
 This will create the final PDF. 
 
