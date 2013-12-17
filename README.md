@@ -7,6 +7,11 @@ Much more work needs to be done to generalize this to other TEI book projects, b
 
 These scripts have been tested on Apple computers running OSX v 10.6-10.9 with at least 4 GB of memory. 
 
+Step 0: Check out or download files from github
+===============================================
+
+You'll get a folder with a name like "TEI-to-PDF-master." All other instructions refer to this folder as the starting place.
+
 Step 1: Set up your environment
 =======================
 
@@ -17,12 +22,12 @@ Download Saxon HE from [The Saxon Sourceforge page](http://saxon.sourceforge.net
 
 Change name of saxon jar file to "saxon.jar," or change in the code below to match your download (it will be something like "saxon9he.jar")
 
-Place saxon.jar in the root of your book creator folder.
+Place saxon.jar in the root of your TEI-to-PDF folder, or change the commands below to reference where you keep Saxon.
 
-1b: Download and configure the FOP processor
+1b: Download and configure the FO processor
 ----------------------------------------
 
-Download the FOP Binary files from [The Apache FOP Page](http://xmlgraphics.apache.org/fop/). Rename extracted folder "fop" and place inside the "lib" folder. Scripts have been tested with FOP 1.0 and 1.1.
+Download the FOP Binary files from [The Apache FOP Page](http://xmlgraphics.apache.org/fop/). Rename extracted folder "fop" and place inside the "lib" folder, or change the commands below to reference where you keep the FO processor. Scripts have been tested with FOP 1.0 and 1.1.
 
 #### Change the conf file
 
@@ -30,7 +35,7 @@ The conf file can be found in /lib/fop/conf/fop.xconf
 
 This change will let you register all the fonts on your system or in a particular directory so you don't have to specify each one.
 
-Inside the /fop/renderers[1]/renderer[1]/fonts tag, add:
+Place the following inside the &lt;renderer mime="application/pdf">/&lt;fonts> tags:
 
 	<directory recursive="true">/Library/Fonts</directory>
 	<auto-detect/>
@@ -76,7 +81,7 @@ The final file structure before you run anything should look like this:
 
 #### TEI
 
-All the TEI must be categorized into Paper, Panel, or Poster so the book can generate the proper headings. 
+All the TEI must be P5 and categorized into Paper, Panel, or Poster so the book can generate the proper headings. 
 
 Example code (to be placed inside the teiHeader): 
 
@@ -101,7 +106,7 @@ Some of the panel papers were done as TEI Corpus files, so the code reflects tha
 
 Make sure the xml:id matches the document name and is unique! E.G. ab-002.xml must have an xml:id of ab-002. 
 
-TEI Filenames are irrelevant, the code uses the category in the header file (as above) to place the content in the correct category.
+TEI Filenames are not used for categorization, the code uses the category in the header file (as above) to place the content in the correct category.
 
 #### Images
 
