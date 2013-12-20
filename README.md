@@ -66,10 +66,12 @@ See [The FOP section on memory usage](http://xmlgraphics.apache.org/fop/1.1/runn
 The final file structure before you run anything should look like this: 
 
 * empty.xml
-* final_images (folder)
-* final_xml (folder)
+* input (folder)
+    * images (folder)
+    * xml (folder)
 * lib (folder)
 	* fop (folder)
+    * saxon.jar
 * README.txt
 * run.sh
 * saxon.jar
@@ -156,7 +158,7 @@ Step 2: Run Files
 
 Command line instructions are below. 
 
-1: Place all files and images in final_xml and final_images, respectively
+1: Place all files and images in input/xml and input/images, respectively
 
 1b. Open a terminal and change directory (cd command) to the book creator root folder. 
 

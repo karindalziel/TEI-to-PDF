@@ -1,1 +1,1 @@
-This folder is for holding the FOP Processor.
+This folder is for holding the Saxon jar, FOP Processor, and internal library.
