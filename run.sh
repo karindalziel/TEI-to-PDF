@@ -9,6 +9,6 @@ java -jar "${sax_jar}" "${final_xml}" "${xslfo_xsl}" > "${fo_obj}" && \
 FOP_OPTS="${fop_opts}" "${fop_bin}" -c "${fop_conf}" "${fo_obj}" "${pdf_obj}"
 
 if "$cleanup"; then
-    rm -f Book_Corpus.xml
-    rm -f pdf.fo
+    rm -f "${fo_obj}"
+    rm -f "${final_xml}"
 fi

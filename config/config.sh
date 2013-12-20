@@ -16,13 +16,13 @@ fop_opts="-d64 -Xmx3000m"
 fop_bin=${fop_lib}/fop
 fop_conf=${fop_lib}/conf/fop.xconf
 
-fo_obj=pdf.fo
-pdf_obj=pdf.pdf
+fo_obj=output/pdf.fo
+pdf_obj=output/pdf.pdf
 
-tei_xsl=TEIcorpus_producer.xsl
-xslfo_xsl=xsl-fo-producer.xsl
-init_xml=empty.xml
-final_xml=Book_Corpus.xml
+tei_xsl=lib/tei2pdf/TEIcorpus_producer.xsl
+xslfo_xsl=lib/tei2pdf/xsl-fo-producer.xsl
+init_xml=lib/tei2pdf/empty.xml
+final_xml=output/Book_Corpus.xml
 
 # further options that may be useful
 
