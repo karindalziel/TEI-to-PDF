@@ -680,7 +680,7 @@
                 <fo:flow flow-name="xsl-region-body">
                     <fo:block>
                         <fo:external-graphic 
-                            src="../../../final_images/front_cover.jpg" 
+                            src="../../../input/images/front_cover.jpg" 
                             content-width="8.5in"
                             content-height="scale-to-fit"/>
                     </fo:block>
@@ -1175,7 +1175,7 @@
                     <fo:flow flow-name="xsl-region-body">
                         <fo:block>
                             <fo:external-graphic 
-                                src="../../../final_images/back_cover.jpg" 
+                                src="../../../input/images/back_cover.jpg" 
                                 content-height="11in"
                                 content-width="8.5in"/>
                         </fo:block>
@@ -1470,7 +1470,7 @@
             <xsl:when test="graphic/@n='intro'">
                 <fo:block><xsl:call-template name="figure_container_intro"/>
                     <fo:external-graphic>
-                        <xsl:attribute name="src"><xsl:text>../../../final_images/</xsl:text><xsl:value-of select="graphic/@url"/><xsl:text>.jpg</xsl:text></xsl:attribute>
+                        <xsl:attribute name="src"><xsl:text>../../../input/images/</xsl:text><xsl:value-of select="graphic/@url"/><xsl:text>.jpg</xsl:text></xsl:attribute>
                         <xsl:call-template name="figure_intro"/>
                     </fo:external-graphic>
                     
@@ -1479,7 +1479,7 @@
             <xsl:otherwise>
                 <fo:block><xsl:call-template name="figure_container"/>
                     <fo:external-graphic>
-                        <xsl:attribute name="src"><xsl:text>../../../final_images/</xsl:text><xsl:value-of select="graphic/@url"/><xsl:text>.jpg</xsl:text></xsl:attribute>
+                        <xsl:attribute name="src"><xsl:text>../../../input/images/</xsl:text><xsl:value-of select="graphic/@url"/><xsl:text>.jpg</xsl:text></xsl:attribute>
                         <xsl:call-template name="figure"/>
                     </fo:external-graphic>
                     <fo:block><xsl:call-template name="figure_head"/><xsl:apply-templates select="head"/></fo:block>
@@ -1560,7 +1560,7 @@
             <xsl:when test="$output = 'print'">
                 <fo:block><xsl:call-template name="figure_container_intro"/>
                     <fo:external-graphic>
-                        <xsl:attribute name="src"><xsl:text>../../../final_images/logo_bw.jpg</xsl:text></xsl:attribute>
+                        <xsl:attribute name="src"><xsl:text>../../../input/images/logo_bw.jpg</xsl:text></xsl:attribute>
                         <xsl:call-template name="figure_intro"/>
                     </fo:external-graphic>
                 </fo:block>
@@ -1568,7 +1568,7 @@
             <xsl:otherwise>
                 <fo:block><xsl:call-template name="figure_container_intro"/>
                     <fo:external-graphic>
-                        <xsl:attribute name="src"><xsl:text>../../../final_images/logo_color.jpg</xsl:text></xsl:attribute>
+                        <xsl:attribute name="src"><xsl:text>../../../input/images/logo_color.jpg</xsl:text></xsl:attribute>
                         <xsl:call-template name="figure_intro"/>
                     </fo:external-graphic>
                 </fo:block>

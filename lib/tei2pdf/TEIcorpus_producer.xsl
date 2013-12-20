@@ -8,7 +8,7 @@
     exclude-result-prefixes="#all">
     
     <!-- =================================================================================
-         XSL to create a TEI Corpus file from the individual XML files in final_xml. 
+         XSL to create a TEI Corpus file from the individual XML files in input/xml. 
          
          v.1 Created for Digital Humanities 2013 at the University of Nebraska-Lincoln by Karin Dalziel
          
@@ -20,7 +20,7 @@
     <xsl:output indent="yes"/>
     
     <!-- This is a wildly inefficient but convienent way to select documents -->
-    <xsl:variable name="files" select="collection('final_xml?recurse=yes;select=*.xml')"/>
+    <xsl:variable name="files" select="collection('../../input/xml?recurse=yes;select=*.xml')"/>
     
     <!-- =================================================================================
          Main Document Structure
